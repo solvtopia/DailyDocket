@@ -1,0 +1,35 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/masterPages/PopUp.Master" AutoEventWireup="false" CodeBehind="Wizard.master.vb" Inherits="UtilityWizards.API.Wizard" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="headContent" runat="server">
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+    </style>
+    <asp:ContentPlaceHolder runat="server" ID="wizardHeadContent" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="pageContent_Ajax" runat="server">
+    <table class="auto-style1">
+        <tr>
+            <td style="vertical-align: top; padding-top: 10px;">
+                <asp:ContentPlaceHolder runat="server" ID="wizardContent_Ajax" />
+            </td>
+            <td style="width: 250px; vertical-align: top; padding: 10px 10px 10px 20px; background-color: #99d100; color: white;">
+                <table class="auto-style1" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td style="width: 22px;">
+                            <asp:Image runat="server" ID="imgIcon" AlternateText="Help" ImageUrl="http://access.utilitywizards.com/images/toolbar/icon_help.png"  /></td>
+                        <td style="font-weight: bold;">Help & Information</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">&nbsp;</td>
+                    </tr>
+                </table>
+                <asp:ContentPlaceHolder runat="server" ID="wizardInfoContent" />
+            </td>
+        </tr>
+    </table>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="pageContent_OutsideAjax" runat="server">
+    <asp:ContentPlaceHolder runat="server" ID="wizardContent_OutsideAjax" />
+</asp:Content>

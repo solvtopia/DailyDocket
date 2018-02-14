@@ -1,0 +1,15 @@
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\bin\Release\UtilityWizards.CommonCore.dll
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\bin\Release\UtilityWizards.CommonCore.pdb
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\bin\Release\UtilityWizards.CommonCore.xml
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\bin\Release\Telerik.Web.UI.dll
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\bin\Release\Telerik.WinControls.UI.dll
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\bin\Release\Telerik.WinControls.dll
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\bin\Release\TelerikCommon.dll
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\bin\Release\Telerik.Web.UI.xml
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\bin\Release\Telerik.WinControls.UI.xml
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\bin\Release\Telerik.WinControls.xml
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\obj\Release\UtilityWizards.CommonCore.Resources.resources
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\obj\Release\UtilityWizards.CommonCore.vbproj.GenerateResource.Cache
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\obj\Release\UtilityWizards.CommonCore.dll
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\obj\Release\UtilityWizards.CommonCore.xml
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\obj\Release\UtilityWizards.CommonCore.pdb

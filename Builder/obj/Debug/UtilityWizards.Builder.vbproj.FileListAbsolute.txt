@@ -1,0 +1,182 @@
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\csc.exe
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\vbc.exe
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\VBCSCompiler.exe
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\UtilityWizards.Builder.dll.config
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\UtilityWizards.Builder.dll
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\UtilityWizards.Builder.pdb
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\UtilityWizards.Builder.xml
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\Telerik.Web.UI.dll
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\Telerik.Web.UI.xml
+C:\Projects\Solvtopia\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.Resources.resources
+C:\Projects\Solvtopia\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.vbproj.GenerateResource.Cache
+C:\Projects\Solvtopia\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.dll.licenses
+C:\Projects\Solvtopia\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.dll
+C:\Projects\Solvtopia\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.xml
+C:\Projects\Solvtopia\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.pdb
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\UtilityWizards.CommonCore.dll
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\UtilityWizards.CommonCore.pdb
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\UtilityWizards.CommonCore.xml
+C:\Projects\Solvtopia\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.vbprojResolveAssemblyReference.cache
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\Newtonsoft.Json.dll
+C:\Projects\Solvtopia\UtilityWizards\Builder\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.Resources.resources
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.dll.licenses
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\roslyn\csc.exe
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\roslyn\vbc.exe
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\UtilityWizards.Builder.dll.config
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\UtilityWizards.Builder.dll
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\UtilityWizards.Builder.pdb
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\UtilityWizards.Builder.xml
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\UtilityWizards.CommonCore.dll
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\UtilityWizards.CommonCore.pdb
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\UtilityWizards.CommonCore.xml
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.dll
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.xml
+C:\Users\Administrator\Google Drive\Projects\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.pdb
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\csc.exe
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\vbc.exe
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\UtilityWizards.Builder.dll.config
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\UtilityWizards.Builder.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\UtilityWizards.Builder.pdb
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\UtilityWizards.Builder.xml
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\UtilityWizards.CommonCore.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\UtilityWizards.CommonCore.pdb
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\UtilityWizards.CommonCore.xml
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.Resources.resources
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.dll.licenses
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.xml
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.pdb
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\csc.exe
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\vbc.exe
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\VBCSCompiler.exe
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\UtilityWizards.Builder.dll.config
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\UtilityWizards.Builder.dll
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\UtilityWizards.Builder.pdb
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\UtilityWizards.Builder.xml
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\Telerik.Web.UI.dll
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\Telerik.Web.UI.Skins.dll
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\UtilityWizards.CommonCore.dll
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\Newtonsoft.Json.dll
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\UtilityWizards.CommonCore.pdb
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\UtilityWizards.CommonCore.xml
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\Telerik.Web.UI.xml
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\Newtonsoft.Json.xml
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.vbprojResolveAssemblyReference.cache
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.Resources.resources
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.vbproj.GenerateResource.Cache
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.dll.licenses
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.dll
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.xml
+C:\Users\ASLVA268\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\obj\Debug\UtilityWizards.Builder.pdb
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\Telerik.Web.UI.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\Telerik.Web.UI.Skins.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\Microsoft.AnalysisServices.AdomdClient.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards\Builder\bin\Telerik.Web.UI.xml
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\csc.exe
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\vbc.exe
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\UtilityWizards.Builder.dll.config
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\UtilityWizards.Builder.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\UtilityWizards.Builder.pdb
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\UtilityWizards.Builder.xml
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\Telerik.Web.UI.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\Telerik.Web.UI.Skins.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\UtilityWizards.CommonCore.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\Microsoft.AnalysisServices.AdomdClient.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\UtilityWizards.CommonCore.pdb
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\UtilityWizards.CommonCore.xml
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\Telerik.Web.UI.xml
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\obj\Debug\UtilityWizards.Builder.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\obj\Debug\UtilityWizards.Builder.Resources.resources
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\obj\Debug\UtilityWizards.Builder.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\obj\Debug\UtilityWizards.Builder.dll.licenses
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\obj\Debug\UtilityWizards.Builder.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\obj\Debug\UtilityWizards.Builder.xml
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\obj\Debug\UtilityWizards.Builder.pdb
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\csc.exe.config
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\csc.rsp
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\csi.exe
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\csi.rsp
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\System.AppContext.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\vbc.exe.config
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\roslyn\vbc.rsp
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\RestSharp.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\Twilio.Api.dll
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\RestSharp.xml
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\Twilio.Api.pdb
+C:\Users\Administrator\Google Drive\Projects\Solvtopia\UtilityWizards_V2\Builder\bin\Twilio.Api.xml

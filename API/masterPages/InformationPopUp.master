@@ -1,0 +1,43 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/masterPages/Layout_V2.master" AutoEventWireup="false" CodeBehind="InformationPopUp.master.vb" Inherits="DailyDocket.API.InformationPopUp" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="headContent" runat="server">
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+    </style>
+    <asp:ContentPlaceHolder runat="server" ID="informationHeadContent" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="pageContent_Ajax" runat="server">
+    <table class="auto-style1">
+        <tr>
+            <td style="vertical-align: top; padding-top: 10px;">
+                <asp:ContentPlaceHolder runat="server" ID="informationContent_Ajax" />
+            </td>
+            <td style="vertical-align: top; padding-top: 10px; width: 20px;">
+                &nbsp;</td>
+            <td style="width: 250px; vertical-align: top; padding: 10px 10px 10px 20px; background-color: #27aad0; color: white;">
+                <table class="auto-style1" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td style="width: 22px;">
+                            <asp:Image runat="server" ID="imgIcon" AlternateText="Help" ImageUrl="https://access.dailycourtdocket.com/images/toolbar/icon_help.png"  /></td>
+                        <td style="font-weight: bold;">Purpose & Comments</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">&nbsp;</td>
+                    </tr>
+                </table>
+                <asp:ContentPlaceHolder runat="server" ID="informationInfoContent" />
+            </td>
+        </tr>
+    </table>
+    <table style="position: fixed; bottom: 10px; left: 10px; background-color: white;">
+        <tr>
+            <td>
+                <telerik:RadButton ID="btnClose" runat="server" Text="Close"  Skin="MetroTouch"/>
+            </td>
+        </tr>
+    </table>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="pageContent_OutsideAjax" runat="server">
+    <asp:ContentPlaceHolder runat="server" ID="informationContent_OutsideAjax" />
+</asp:Content>

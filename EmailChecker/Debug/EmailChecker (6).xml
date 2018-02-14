@@ -1,0 +1,416 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EmailChecker
+</name>
+</assembly>
+<members>
+<member name="T:EmailChecker.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EmailChecker.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EmailChecker.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:EmailChecker.DocketInput.InputController">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.#ctor">
+<remarks/>
+</member>
+<member name="E:EmailChecker.DocketInput.InputController.GetApiKeyCompleted">
+<remarks/>
+</member>
+<member name="E:EmailChecker.DocketInput.InputController.UpdateFileRecordCompleted">
+<remarks/>
+</member>
+<member name="E:EmailChecker.DocketInput.InputController.CreateFileRecordCompleted">
+<remarks/>
+</member>
+<member name="E:EmailChecker.DocketInput.InputController.DeleteFileRecordCompleted">
+<remarks/>
+</member>
+<member name="E:EmailChecker.DocketInput.InputController.UpdateUserRecordCompleted">
+<remarks/>
+</member>
+<member name="E:EmailChecker.DocketInput.InputController.CreateUserRecordCompleted">
+<remarks/>
+</member>
+<member name="E:EmailChecker.DocketInput.InputController.DeleteUserRecordCompleted">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.GetApiKey(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.GetApiKeyAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.GetApiKeyAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.UpdateFileRecord(EmailChecker.DocketInput.ApiRequest,EmailChecker.DocketInput.FileRecord)">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.UpdateFileRecordAsync(EmailChecker.DocketInput.ApiRequest,EmailChecker.DocketInput.FileRecord)">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.UpdateFileRecordAsync(EmailChecker.DocketInput.ApiRequest,EmailChecker.DocketInput.FileRecord,System.Object)">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.CreateFileRecord(EmailChecker.DocketInput.ApiRequest,EmailChecker.DocketInput.FileRecord)">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.CreateFileRecordAsync(EmailChecker.DocketInput.ApiRequest,EmailChecker.DocketInput.FileRecord)">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.CreateFileRecordAsync(EmailChecker.DocketInput.ApiRequest,EmailChecker.DocketInput.FileRecord,System.Object)">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.DeleteFileRecord(EmailChecker.DocketInput.ApiRequest,EmailChecker.DocketInput.FileRecord)">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.DeleteFileRecordAsync(EmailChecker.DocketInput.ApiRequest,EmailChecker.DocketInput.FileRecord)">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.DeleteFileRecordAsync(EmailChecker.DocketInput.ApiRequest,EmailChecker.DocketInput.FileRecord,System.Object)">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.UpdateUserRecord(EmailChecker.DocketInput.ApiRequest,EmailChecker.DocketInput.SystemUser)">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.UpdateUserRecordAsync(EmailChecker.DocketInput.ApiRequest,EmailChecker.DocketInput.SystemUser)">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.UpdateUserRecordAsync(EmailChecker.DocketInput.ApiRequest,EmailChecker.DocketInput.SystemUser,System.Object)">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.CreateUserRecord(EmailChecker.DocketInput.ApiRequest,EmailChecker.DocketInput.SystemUser)">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.CreateUserRecordAsync(EmailChecker.DocketInput.ApiRequest,EmailChecker.DocketInput.SystemUser)">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.CreateUserRecordAsync(EmailChecker.DocketInput.ApiRequest,EmailChecker.DocketInput.SystemUser,System.Object)">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.DeleteUserRecord(EmailChecker.DocketInput.ApiRequest,EmailChecker.DocketInput.SystemUser)">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.DeleteUserRecordAsync(EmailChecker.DocketInput.ApiRequest,EmailChecker.DocketInput.SystemUser)">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.DeleteUserRecordAsync(EmailChecker.DocketInput.ApiRequest,EmailChecker.DocketInput.SystemUser,System.Object)">
+<remarks/>
+</member>
+<member name="M:EmailChecker.DocketInput.InputController.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.ApiKeyResult">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.ApiKeyResult.UserEmail">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.ApiKeyResult.UserPassword">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.ApiKeyResult.ApiKey">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.ApiKeyResult.ClientID">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.ApiKeyResult.responseCode">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.ApiKeyResult.responseMessage">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.ApiResultCode">
+<remarks/>
+</member>
+<member name="F:EmailChecker.DocketInput.ApiResultCode.success">
+<remarks/>
+</member>
+<member name="F:EmailChecker.DocketInput.ApiResultCode.failed">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.SystemUser">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.ID">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.Name">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.Email">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.Password">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.Permissions">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.MobileDeviceId">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.MobileUsername">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.MobileNumber">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.Active">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.ClientID">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.ApiEnabled">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.WebEnabled">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.SupervisorID">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.MobileDeviceType">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.OneSignalUserID">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.OneSignalPushToken">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.APIResponseCode">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.APIResponseMessage">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.ImageUrl">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.MobileImageUrl">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.IsAdminUser">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.SystemUser.IsSysAdmin">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.SystemUserPermissions">
+<remarks/>
+</member>
+<member name="F:EmailChecker.DocketInput.SystemUserPermissions.User">
+<remarks/>
+</member>
+<member name="F:EmailChecker.DocketInput.SystemUserPermissions.Administrator">
+<remarks/>
+</member>
+<member name="F:EmailChecker.DocketInput.SystemUserPermissions.SystemAdministrator">
+<remarks/>
+</member>
+<member name="F:EmailChecker.DocketInput.SystemUserPermissions.Solvtopia">
+<remarks/>
+</member>
+<member name="F:EmailChecker.DocketInput.SystemUserPermissions.Technician">
+<remarks/>
+</member>
+<member name="F:EmailChecker.DocketInput.SystemUserPermissions.Supervisor">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.UserPlatform">
+<remarks/>
+</member>
+<member name="F:EmailChecker.DocketInput.UserPlatform.Unavailable">
+<remarks/>
+</member>
+<member name="F:EmailChecker.DocketInput.UserPlatform.iPhone">
+<remarks/>
+</member>
+<member name="F:EmailChecker.DocketInput.UserPlatform.iPod">
+<remarks/>
+</member>
+<member name="F:EmailChecker.DocketInput.UserPlatform.iPad">
+<remarks/>
+</member>
+<member name="F:EmailChecker.DocketInput.UserPlatform.AndroidPhone">
+<remarks/>
+</member>
+<member name="F:EmailChecker.DocketInput.UserPlatform.AndroidTablet">
+<remarks/>
+</member>
+<member name="F:EmailChecker.DocketInput.UserPlatform.WindowsPhone">
+<remarks/>
+</member>
+<member name="F:EmailChecker.DocketInput.UserPlatform.Desktop">
+<remarks/>
+</member>
+<member name="F:EmailChecker.DocketInput.UserPlatform.Api">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.ApiResponse">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.ApiResponse.responseCode">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.ApiResponse.responseMessage">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.ApiResponse.responseObject">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.FileRecord">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.FileRecord.ID">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.FileRecord.Active">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.FileRecord.SessionDate">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.FileRecord.CourtRoomNumber">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.FileRecord.CourtRoomLocation">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.FileRecord.PresidingJudge">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.FileRecord.CaseNumber">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.FileRecord.CaseType">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.FileRecord.Plaintiff">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.FileRecord.PlaintiffAttorney">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.FileRecord.Defendant">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.FileRecord.DefendantAttorney">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.FileRecord.IssuesOrEvents">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.FileRecord.DaysSinceFiling">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.FileRecord.LengthOfTrial">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.FileRecord.Notes">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.FileRecord.RecordData">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.FileRecord.RecordNumber">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.ApiRequest">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.ApiRequest.apiKey">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.ApiRequest.clientId">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.ApiRequest.deviceId">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.ApiRequest.deviceType">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.GetApiKeyCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.GetApiKeyCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.GetApiKeyCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.UpdateFileRecordCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.UpdateFileRecordCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.UpdateFileRecordCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.CreateFileRecordCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.CreateFileRecordCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.CreateFileRecordCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.DeleteFileRecordCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.DeleteFileRecordCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.DeleteFileRecordCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.UpdateUserRecordCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.UpdateUserRecordCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.UpdateUserRecordCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.CreateUserRecordCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.CreateUserRecordCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.CreateUserRecordCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.DeleteUserRecordCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:EmailChecker.DocketInput.DeleteUserRecordCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:EmailChecker.DocketInput.DeleteUserRecordCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

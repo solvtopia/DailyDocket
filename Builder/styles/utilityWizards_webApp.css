@@ -1,0 +1,26 @@
+﻿html, body {
+    font-family: Trebuchet MS;
+    font-size: 10pt;
+    background-image: url('../images/bg_mobile.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+/*body {
+    position: relative;
+}*/
+
+a {
+    color: white;
+}
+
+.fullWidthBox {
+    width: 100% !important;
+}
+
+.fullWidthButton {
+    padding-left: 0px;
+    padding-right: 0px;
+}

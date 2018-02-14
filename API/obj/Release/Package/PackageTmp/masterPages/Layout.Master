@@ -1,0 +1,159 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Layout.master.vb" Inherits="UtilityWizards.API.Layout" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Utility Wizards</title>
+    <link href="http://access.utilitywizards.com/styles/utilityWizards.css" rel="stylesheet" />
+    <style type="text/css">
+        .layout-header_style1 {
+            width: 100%;
+            background: rgba(255, 255, 255,0.8);
+        }
+
+        .layout-style1 {
+            width: 100%;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="headContent" runat="server" />
+</head>
+<body style="background-image: url('http://access.utilitywizards.com/images/bg_site.jpg'); background-repeat: no-repeat; background-attachment: fixed;">
+    <form id="form1" runat="server">
+        <div>
+            <telerik:RadScriptManager ID="RadScriptManager" runat="server">
+                <Scripts>
+                    <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js"></asp:ScriptReference>
+                    <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js"></asp:ScriptReference>
+                    <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js"></asp:ScriptReference>
+                </Scripts>
+            </telerik:RadScriptManager>
+            <telerik:RadFormDecorator ID="RadFormDecorator" runat="server" />
+            <telerik:RadAjaxPanel ID="MainAjaxPanel" runat="server" Width="100%" HorizontalAlign="NotSet" LoadingPanelID="MainAjaxLoadingPanel">
+                <table cellpadding="0" cellspacing="0" class="layout-style1">
+                    <tr>
+                        <td style="vertical-align: top;" colspan="2">
+                            <table class="layout-header_style1">
+                                <tr>
+                                    <td>
+                                        <telerik:RadMenu ID="mnuMain" runat="server" Width="100%" ClickToOpen="True" EnableShadows="True">
+                                            <Items>
+                                                <telerik:RadMenuItem runat="server" PostBack="False" Text="File">
+                                                    <Items>
+                                                        <telerik:RadMenuItem runat="server" Value="new" Text="New Work Order" ImageUrl="http://access.utilitywizards.com/images/toolbar/icon_new.png" />
+                                                        <telerik:RadMenuItem runat="server" Value="search" Text="Search" ImageUrl="http://access.utilitywizards.com/images/toolbar/icon_search.png" />
+                                                    </Items>
+                                                </telerik:RadMenuItem>
+                                                <telerik:RadMenuItem runat="server" PostBack="False" Text="Edit" />
+                                                <telerik:RadMenuItem runat="server" PostBack="False" Text="Tools">
+                                                    <Items>
+                                                        <telerik:RadMenuItem runat="server" Value="new_module" Text="New Module" ImageUrl="http://access.utilitywizards.com/images/toolbar/icon_addtable.png" />
+                                                        <telerik:RadMenuItem runat="server" Value="new_folder" Text="New Folder" ImageUrl="http://access.utilitywizards.com/images/toolbar/icon_folder.png" />
+                                                        <telerik:RadMenuItem runat="server" Value="manage_clients" Text="Manage Clients" />
+                                                    </Items>
+                                                </telerik:RadMenuItem>
+                                                <telerik:RadMenuItem runat="server" PostBack="False" Text="Help" />
+                                            </Items>
+                                        </telerik:RadMenu>
+                                    </td>
+                                    <td rowspan="3" style="vertical-align: top; text-align: right; width: 80px;">
+                                        <asp:Image runat="server" ID="imgLogo" AlternateText="UtilityWizards" ImageUrl="http://access.utilitywizards.com/images/logo.png" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="height: 20px;">
+                                        <telerik:RadAjaxLoadingPanel ID="MainAjaxLoadingPanel" runat="server" Skin="Default" Width="100%" BackgroundPosition="None" IsSticky="True">
+                                            <center><asp:Image runat="server" ID="imgLoading" AlternateText="Loading" ImageUrl="http://access.utilitywizards.com/images/loading.gif"  /></center>
+                                        </telerik:RadAjaxLoadingPanel>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="height: 20px;">&nbsp;</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top; width: 200px;">
+                            <table class="layout-style1">
+                                <tr>
+                                    <td>
+                                        <telerik:RadPanelBar ID="pbrMain" runat="server" Width="100%" BackColor="#99d100">
+                                            <Items>
+                                                <telerik:RadPanelItem runat="server" Text="Objects" Expanded="true" Value="user_info">
+                                                    <ContentTemplate>
+                                                        <table style="width: 100%;">
+                                                            <tr>
+                                                                <td style="padding: 10px;">
+                                                                    <asp:ContentPlaceHolder ID="objectsContent" runat="server" />
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </ContentTemplate>
+                                                </telerik:RadPanelItem>
+                                                <telerik:RadPanelItem runat="server" Text="Routines" Expanded="true" Value="utilities">
+                                                    <ContentTemplate>
+                                                        <table style="width: 100%;">
+                                                            <tr>
+                                                                <td style="padding: 10px;">
+                                                                    <asp:ContentPlaceHolder ID="routinesContent" runat="server" />
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </ContentTemplate>
+                                                </telerik:RadPanelItem>
+                                            </Items>
+                                        </telerik:RadPanelBar>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="vertical-align: top; width: 80%;">
+                            <table class="layout-style1">
+                                <tr>
+                                    <td style="border: 1px solid #828282; height: 23px; background-image: url('http://access.utilitywizards.com/images/bg_header.png'); background-repeat: repeat-x; padding-left: 10px;">
+                                        <asp:ContentPlaceHolder ID="pageHeaderContent" runat="server" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px; background: rgba(255,255,255,0.8);">
+                                        <asp:ContentPlaceHolder ID="pageContent_Ajax" runat="server" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </telerik:RadAjaxPanel>
+            <asp:ContentPlaceHolder ID="pageContent_OutsideAjax" runat="server" />
+            <telerik:RadWindowManager Style="z-index: 7001" ID="RadWindowManager" ShowContentDuringLoad="false"
+                VisibleStatusbar="false" ReloadOnShow="true" runat="server" EnableShadow="true">
+                <Windows>
+                    <telerik:RadWindow ID="ModuleWizardWindow" runat="server" Behaviors="None" Modal="true"
+                        NavigateUrl="~/Workers/ModuleWizard.aspx" OnClientClose="onModuleWizardClientClose" Height="768"
+                        Width="1024" Title="Module Wizard" InitialBehaviors="None">
+                    </telerik:RadWindow>
+                    <telerik:RadWindow ID="ModuleWindow" runat="server" Behaviors="None" Modal="true"
+                        NavigateUrl="~/Workers/ModuleLandingPage.aspx" OnClientClose="onModuleClientClose" Height="768"
+                        Width="1024" Title="" InitialBehaviors="None">
+                    </telerik:RadWindow>
+                    <telerik:RadWindow ID="LoginWindow" Width="400" Height="350" runat="server" Behaviors="None"
+                        OnClientClose="onLoginClientClose" NavigateUrl="~/Workers/Login.aspx" Modal="true">
+                    </telerik:RadWindow>
+                    <telerik:RadWindow ID="ProfileWindow" Width="800" Height="600" runat="server" Behaviors="None"
+                        OnClientClose="onProfileClientClose" NavigateUrl="~/Workers/Profile.aspx" Modal="true">
+                    </telerik:RadWindow>
+                    <telerik:RadWindow ID="ConfirmationWindow" Width="400" Height="350" runat="server" Behaviors="None"
+                        OnClientClose="onConfirmationClientClose" NavigateUrl="~/Workers/Confirmation.aspx" Modal="true">
+                    </telerik:RadWindow>
+                </Windows>
+            </telerik:RadWindowManager>
+        </div>
+    </form>
+</body>
+</html>

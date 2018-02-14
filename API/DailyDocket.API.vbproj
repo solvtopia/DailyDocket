@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{0591CA54-C226-4FA1-8376-EBA43A1B14A1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DailyDocket.API</RootNamespace>
+    <AssemblyName>DailyDocket.API</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>DailyDocket.API.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <FilesToIncludeForPublish>AllFilesInTheProject</FilesToIncludeForPublish>
+    <ExcludeGeneratedDebugSymbol>true</ExcludeGeneratedDebugSymbol>
+    <PublishDatabases>true</PublishDatabases>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>DailyDocket.API.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telerik.Web.UI, Version=2015.1.225.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for ASP.NET AJAX Q1 2015\Bin45\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins, Version=2015.1.225.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for ASP.NET AJAX Q1 2015\Bin45\Telerik.Web.UI.Skins.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="DailyDocket.CommonCore" />
+    <Import Include="DailyDocket.CommonCore.Shared" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="InputController.asmx" />
+    <Content Include="Workers\ApiKeyResult.aspx" />
+    <Content Include="Workers\ApiResponse.aspx" />
+    <Content Include="Workers\ApiResultCode.aspx" />
+    <Content Include="Workers\CheckLogin_M.aspx" />
+    <Content Include="Workers\CloseWorkOrder_M.aspx" />
+    <Content Include="Workers\CustomerRecord.aspx" />
+    <Content Include="Workers\GetAllCustomers.aspx" />
+    <Content Include="Workers\GetApiKey.aspx" />
+    <Content Include="Workers\GetCustomerByAcctNum.aspx" />
+    <Content Include="Workers\GetModuleQuestions_M.aspx" />
+    <Content Include="Workers\GetOpenWorkOrderCount_M.aspx" />
+    <Content Include="Workers\GetOpenWorkOrders_M.aspx" />
+    <Content Include="Workers\InputController.aspx" />
+    <Content Include="Workers\MarkAsViewed_M.aspx" />
+    <Content Include="OutputController.asmx" />
+    <Content Include="scripts\radWindowScripts.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Workers\MobileWorkOrder.aspx" />
+    <Content Include="Workers\NameValuePair.aspx" />
+    <Content Include="Workers\OutputController.aspx" />
+    <Content Include="Workers\SystemQuestion.aspx" />
+    <Content Include="Workers\SystemQuestionType.aspx" />
+    <Content Include="Workers\SystemUser.aspx" />
+    <Content Include="Workers\SystemUserPermissions.aspx" />
+    <Content Include="Workers\UpdateCustomerRecord.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="code\Common.vb" />
+    <Compile Include="code\Pages.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InputController.asmx.vb">
+      <DependentUpon>InputController.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="masterPages\InformationPopUp.master.designer.vb">
+      <DependentUpon>InformationPopUp.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterPages\InformationPopUp.master.vb">
+      <DependentUpon>InformationPopUp.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterPages\Layout.Master.designer.vb">
+      <DependentUpon>Layout.Master</DependentUpon>
+    </Compile>
+    <Compile Include="masterPages\Layout.Master.vb">
+      <DependentUpon>Layout.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterPages\PopUp.Master.designer.vb">
+      <DependentUpon>PopUp.Master</DependentUpon>
+    </Compile>
+    <Compile Include="masterPages\PopUp.Master.vb">
+      <DependentUpon>PopUp.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Workers\ApiKeyResult.aspx.designer.vb">
+      <DependentUpon>ApiKeyResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\ApiKeyResult.aspx.vb">
+      <DependentUpon>ApiKeyResult.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Workers\ApiResponse.aspx.designer.vb">
+      <DependentUpon>ApiResponse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\ApiResponse.aspx.vb">
+      <DependentUpon>ApiResponse.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Workers\ApiResultCode.aspx.designer.vb">
+      <DependentUpon>ApiResultCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\ApiResultCode.aspx.vb">
+      <DependentUpon>ApiResultCode.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Workers\CheckLogin_M.aspx.designer.vb">
+      <DependentUpon>CheckLogin_M.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\CheckLogin_M.aspx.vb">
+      <DependentUpon>CheckLogin_M.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Workers\CloseWorkOrder_M.aspx.designer.vb">
+      <DependentUpon>CloseWorkOrder_M.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\CloseWorkOrder_M.aspx.vb">
+      <DependentUpon>CloseWorkOrder_M.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Workers\CustomerRecord.aspx.designer.vb">
+      <DependentUpon>CustomerRecord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\CustomerRecord.aspx.vb">
+      <DependentUpon>CustomerRecord.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Workers\GetAllCustomers.aspx.designer.vb">
+      <DependentUpon>GetAllCustomers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\GetAllCustomers.aspx.vb">
+      <DependentUpon>GetAllCustomers.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Workers\GetApiKey.aspx.designer.vb">
+      <DependentUpon>GetApiKey.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\GetApiKey.aspx.vb">
+      <DependentUpon>GetApiKey.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Workers\GetCustomerByAcctNum.aspx.designer.vb">
+      <DependentUpon>GetCustomerByAcctNum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\GetCustomerByAcctNum.aspx.vb">
+      <DependentUpon>GetCustomerByAcctNum.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Workers\GetModuleQuestions_M.aspx.designer.vb">
+      <DependentUpon>GetModuleQuestions_M.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\GetModuleQuestions_M.aspx.vb">
+      <DependentUpon>GetModuleQuestions_M.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Workers\GetOpenWorkOrderCount_M.aspx.designer.vb">
+      <DependentUpon>GetOpenWorkOrderCount_M.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\GetOpenWorkOrderCount_M.aspx.vb">
+      <DependentUpon>GetOpenWorkOrderCount_M.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Workers\GetOpenWorkOrders_M.aspx.designer.vb">
+      <DependentUpon>GetOpenWorkOrders_M.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\GetOpenWorkOrders_M.aspx.vb">
+      <DependentUpon>GetOpenWorkOrders_M.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Workers\InputController.aspx.designer.vb">
+      <DependentUpon>InputController.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\InputController.aspx.vb">
+      <DependentUpon>InputController.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Workers\MarkAsViewed_M.aspx.designer.vb">
+      <DependentUpon>MarkAsViewed_M.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\MarkAsViewed_M.aspx.vb">
+      <DependentUpon>MarkAsViewed_M.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="OutputController.asmx.vb">
+      <DependentUpon>OutputController.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Workers\MobileWorkOrder.aspx.designer.vb">
+      <DependentUpon>MobileWorkOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\MobileWorkOrder.aspx.vb">
+      <DependentUpon>MobileWorkOrder.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Workers\NameValuePair.aspx.designer.vb">
+      <DependentUpon>NameValuePair.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\NameValuePair.aspx.vb">
+      <DependentUpon>NameValuePair.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Workers\OutputController.aspx.designer.vb">
+      <DependentUpon>OutputController.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\OutputController.aspx.vb">
+      <DependentUpon>OutputController.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Workers\SystemQuestion.aspx.designer.vb">
+      <DependentUpon>SystemQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\SystemQuestion.aspx.vb">
+      <DependentUpon>SystemQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Workers\SystemQuestionType.aspx.designer.vb">
+      <DependentUpon>SystemQuestionType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\SystemQuestionType.aspx.vb">
+      <DependentUpon>SystemQuestionType.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Workers\SystemUser.aspx.designer.vb">
+      <DependentUpon>SystemUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\SystemUser.aspx.vb">
+      <DependentUpon>SystemUser.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Workers\SystemUserPermissions.aspx.designer.vb">
+      <DependentUpon>SystemUserPermissions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\SystemUserPermissions.aspx.vb">
+      <DependentUpon>SystemUserPermissions.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Workers\UpdateCustomerRecord.aspx.designer.vb">
+      <DependentUpon>UpdateCustomerRecord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workers\UpdateCustomerRecord.aspx.vb">
+      <DependentUpon>UpdateCustomerRecord.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterPages\Layout.Master" />
+    <Content Include="masterPages\PopUp.Master" />
+    <Content Include="masterPages\InformationPopUp.master" />
+    <Content Include="App_Browsers\telerik.browser" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\PublishProfiles\publish1.pubxml" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonCore.Shared\DailyDocket.CommonCore.Shared.vbproj">
+      <Project>{a5e6d981-be58-44cb-a625-46e58ee61cab}</Project>
+      <Name>DailyDocket.CommonCore.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonCore\DailyDocket.CommonCore.vbproj">
+      <Project>{baa1fc3d-f484-464f-abe2-dc83a4e07043}</Project>
+      <Name>DailyDocket.CommonCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>On</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64940</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:64940/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <UserProperties UseAjaxifiedTemplates="False" UseJQuerySupport="False" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,63 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="LayoutMobile.master.vb" Inherits="DailyDocket.Builder.LayoutMobile" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Daily Docket Mobile</title>
+    <link href="../styles/utilityWizards_webApp.css" rel="stylesheet" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <style type="text/css">
+        .wrap-table {
+            width: 100%;
+            display: block;
+        }
+
+            .wrap-table td {
+                display: inline-block;
+            }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+        div.RadComboBox_Default table .rcbInputCell,
+        div.RadComboBox_Default table .rcbArrowCell {
+            height: 22px;
+            line-height: 21px;
+            padding: 0;
+        }
+
+            div.RadComboBox_Default table .rcbInputCell input {
+                height: 22px;
+                line-height: 21px;
+                height: 22px;
+                padding: 0;
+            }
+
+        .rcbInput {
+            height: 22px !important;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="headContent" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <telerik:RadScriptManager ID="RadScriptManager" runat="server">
+                <Scripts>
+                    <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js"></asp:ScriptReference>
+                    <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js"></asp:ScriptReference>
+                    <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js"></asp:ScriptReference>
+                </Scripts>
+            </telerik:RadScriptManager>
+            <telerik:RadFormDecorator ID="RadFormDecorator" runat="server" Skin="Metro" />
+            <telerik:RadAjaxPanel ID="MainAjaxPanel" runat="server" Width="100%" HorizontalAlign="NotSet" LoadingPanelID="MainAjaxLoadingPanel">
+                <telerik:RadAjaxLoadingPanel ID="MainAjaxLoadingPanel" runat="server" Skin="Metro" Width="100%" BackgroundPosition="None" IsSticky="true">
+                    <%--<center><asp:Image runat="server" ID="imgLoading" AlternateText="Loading" ImageUrl="~/images/loading.gif"  /></center>--%>
+                </telerik:RadAjaxLoadingPanel>
+                <asp:ContentPlaceHolder ID="pageContent" runat="server" />
+            </telerik:RadAjaxPanel>
+            <asp:ContentPlaceHolder ID="pageContent_OutsideAjax" runat="server" />
+        </div>
+    </form>
+</body>
+</html>

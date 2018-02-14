@@ -1,0 +1,90 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/masterPages/Dashboard.Master" AutoEventWireup="false" CodeBehind="Wizard_V2.master.vb" Inherits="DailyDocket.Builder.Wizard_V2" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="headContent" runat="server">
+    <style type="text/css">
+        .wrap-table {
+            width: 100%;
+            display: block;
+        }
+
+            .wrap-table td {
+                display: inline-block;
+            }
+    </style>
+    <asp:ContentPlaceHolder runat="server" ID="wizardHeadContent" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="menuContent" runat="server">
+    <asp:ContentPlaceHolder runat="server" ID="wizardMenuContent" />
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="breadcrumbContent" runat="server">
+    <asp:ContentPlaceHolder runat="server" ID="wizardBreadcrumbContent" />
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="pageContent_Ajax" runat="server">
+    <telerik:RadAjaxPanel ID="MainAjaxPanel" runat="server" Width="100%" HorizontalAlign="NotSet" LoadingPanelID="MainAjaxLoadingPanel">
+        <div class="row">
+            <!-- Left col -->
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6">
+                    </div>
+                    <!-- /.col -->
+
+                    <div class="col-md-6">
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+
+                <!-- WIZARD CONTENT -->
+                <div class="box box-info">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">
+                            <asp:Label ID="lblHeader" runat="server" Text="Wizard Title"></asp:Label></h3>
+
+                        <div class="box-tools pull-right">
+                            <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                                <i class="fa fa-minus"></i>
+                            </button>
+                            <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                        </div>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <asp:ContentPlaceHolder runat="server" ID="wizardContent_Ajax" />
+                    </div>
+                    <!-- /.box-body -->
+                </div>
+                <!-- /.box -->
+            </div>
+            <!-- /.col -->
+
+            <div class="col-md-4">
+
+                <!-- HELP AND INFORMATION -->
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Help & Information</h3>
+
+                        <div class="box-tools pull-right">
+                            <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                                <i class="fa fa-minus"></i>
+                            </button>
+                            <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                        </div>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <asp:ContentPlaceHolder runat="server" ID="wizardInfoContent" />
+                    </div>
+                    <!-- /.box-body -->
+                </div>
+                <!-- /.box -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </telerik:RadAjaxPanel>
+</asp:Content>
+<asp:Content ID="Content5" ContentPlaceHolderID="pageContent_OutsideAjax" runat="server">
+    <asp:ContentPlaceHolder runat="server" ID="wizardContent_OutsideAjax" />
+</asp:Content>

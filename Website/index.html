@@ -1,0 +1,243 @@
+﻿<!DOCTYPE HTML>
+<!--
+	Daily Docket by Solvtopia, LLC.
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>Daily Docket by Solvtopia, LLC.</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <link rel="icon" type="image/png" href="images/icon_50t.png">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            }; if (!f._fbq) f._fbq = n;
+            n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+        }(window,
+            document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '541381279359530', {
+            em: 'insert_email_variable'
+        });
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display: none"
+            src="https://www.facebook.com/tr?id=541381279359530&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+    <script>
+        function getCounts(theUrl) {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.open("GET", theUrl, true);
+
+            // subscribe to this event before you send your request.
+            xmlhttp.onreadystatechange = function () {
+                if (xmlhttp.readyState == 4) {
+                    //alert the user that a response now exists in the responseTest property.
+                    //alert(xmlhttp.responseText);
+                    // And to view in firebug
+                    var numbers = xmlhttp.responseText.split('|');
+
+                    var attorneyCount = parseInt(numbers[0]).toLocaleString('en-US', { minimumFractionDigits: 0 });
+                    var caseCount = parseInt(numbers[1]).toLocaleString('en-US', { minimumFractionDigits: 0 });
+                    var monthlyCharge = parseFloat(numbers[2]).toLocaleString('en-US', { minimumFractionDigits: 2 });
+                    var clientCharge = parseFloat(numbers[3]).toLocaleString('en-US', { minimumFractionDigits: 2 });
+
+                    //document.getElementById('attorneyCount').innerText = attorneyCount;
+                    //document.getElementById('caseCount').innerText = caseCount;
+                    document.getElementById('monthlyCharge').innerText = monthlyCharge;
+                    document.getElementById('clientCharge').innerText = clientCharge;
+
+                    document.getElementById('monthlyMath').innerText = monthlyCharge;
+                    document.getElementById('clientMath').innerText = (clientCharge * 2);
+                    document.getElementById('totalMath').innerText = (+monthlyCharge + +(clientCharge * 2));
+                }
+            }
+            xmlhttp.send(null)
+        }
+
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+        }
+
+        getCounts('RecordCount.asp');
+    </script>
+</head>
+<body>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <div class="logo">
+                <!--<span class="icon fa-diamond"></span>-->
+                <span class="helper">
+                    <img src="images/icon.png" /></span>
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <h1>Daily Docket</h1>
+                    <p>
+                        <!--[-->
+                        Cloud-based software solution that automatically processes court Calendar updates for both civil and criminal cases directly from the state into a user-friendly interface with SMS notifications to both attorneys and clients.<br />
+                        <br />
+                        <strong><span style="color: #cc0000; background-color: #fff;"><a href="#signup">Register now to start your FREE 7 day demo</a></span></strong>
+                        <br />
+                        <br />
+                        <strong>NO CREDIT CARD REQUIRED TO REGISTER!</strong><br />
+                        <strong><span style="color: #cc0000; background-color: #fff;">Download our App (<a href="market://details?id=com.solvtopia.dailydocket" target="_blank">Google Play</a> / <a href='itms-apps://itunes.apple.com/us/app/daily-docket/id1200313091?ls=1&mt=8'>Apple App Store</a>)</span></strong><!--]-->
+                    </p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#signup">Sign Up</a></li>
+                    <li><a href="https://access.dailycourtdocket.com" target="_blank">Login</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#availability">Availability</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Intro -->
+            <article id="intro">
+                <h2 class="major">Introduction</h2>
+                <span class="image main">
+                    <img src="images/pic01.jpg" alt="" /></span>
+                <p>
+                    <iframe width="100%" src="https://www.youtube.com/embed/mxiEzhtUmBM" frameborder="0" allowfullscreen></iframe>
+                </p>
+            </article>
+
+            <!-- Sign Up -->
+            <article id="signup">
+                <h2 class="major">Sign Up</h2>
+                <span class="image main">
+                    <img src="images/pic01.jpg" alt="" /></span>
+                <p>
+                    <iframe src="https://access.dailycourtdocket.com/account/registration.aspx?duration=7" style="overflow-x: hidden; overflow-y: scroll; width: 100%; height: 800px;" frameborder="0" onload="resizeIframe(this)"></iframe>
+                </p>
+            </article>
+
+            <!-- Availability -->
+            <article id="availability">
+                <h2 class="major">Availability</h2>
+                <span class="image main">
+                    <img src="images/pic01.jpg" alt="" /></span>
+                <p>
+                    <iframe src="https://access.dailycourtdocket.com/availability.aspx" style="overflow-x: hidden; overflow-y: scroll; width: 100%; height: 400px;" frameborder="0" onload="resizeIframe(this)"></iframe>
+                </p>
+            </article>
+
+            <!-- Pricing -->
+            <article id="pricing">
+                <h2 class="major">How Much Is It?</h2>
+                <span class="image main">
+                    <img src="images/pic01.jpg" alt="" /></span>
+                <p>
+                    It couldn't be more simple! We charge a base rate of
+                    $<span id="monthlyCharge">0</span> USD
+                    and
+                    $<span id="clientCharge">0</span> USD
+                    for each client that you setup to receive SMS Notifications.<br />
+                    <br />
+                    For example ... If you setup 2 clients to receive SMS Notifications you will be charged the following<br />
+                    <br />
+                    $<span id="monthlyMath">0</span> Monthly Service Charge<br />
+                    $<span id="clientMath">0</span> Client SMS Notification Fee<br />
+                    $<span id="totalMath">0</span> Subtotal<br />
+                    <br />
+                    For clients choosing SMS notifications, they will be charged a monthly fee until the case has been closed.
+                    <br />
+                    <br />
+                    Want to use the system for FREE? How about use our platform to make you money? Contact our sales department for details ...
+                </p>
+            </article>
+
+            <!-- About -->
+            <article id="about">
+                <h2 class="major">About The Project</h2>
+                <span class="image main">
+                    <img src="images/pic01.jpg" alt="" /></span>
+                <p>
+                    Our Court Docket system is 100% cloud based allowing us to store all your data in a safe and secure data center. Our servers are state of the art and offer the highest performance available along with top-notch security solutions. All access to the system is secured using both hardware and software firewalls and web traffic is made safe using Encrypted SSL Certificates.<br />
+                    <br />
+                    Our software 
+                    automatically processes Court Calendar Updates for both Civil and Criminal cases directly from the state and places them in a user-friendly interface which includes SMS notifications to both you, as the attorney, and your clients.<br />
+                    <br />
+                    Use either our web-based interface or our mobile App to manage your client records, stay up to date on when you need to appear in court, and never miss a court date again!<br />
+                    Download our App (<a href="market://details?id=com.solvtopia.dailydocket" target="_blank">Google Play</a> / <a href='itms-apps://itunes.apple.com/us/app/daily-docket/id1200313091?ls=1&mt=8'>Apple App Store</a>).<br />
+                </p>
+            </article>
+
+            <!-- Contact -->
+            <article id="contact">
+                <h2 class="major">Contact</h2>
+                <form action="sendmail.asp" name="contact-form" id="contact-form">
+                    <p>Please complete the form below or call us at <a href="tel:19102424891">(910) 242-4891</a></p>
+                    <div class="field half first">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" />
+                    </div>
+                    <div class="field half">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" />
+                    </div>
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="4"></textarea>
+                    </div>
+                    <ul class="actions">
+                        <li>
+                            <input type="submit" value="Send Message" class="special" /></li>
+                        <li>
+                            <input type="reset" value="Reset" /></li>
+                    </ul>
+                </form>
+                <ul class="icons">
+                    <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+                </ul>
+            </article>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <p class="copyright">&copy; Solvtopia, LLC. Design: <a href="http://www.solvtopia.com" target="_blank">Solvtopia, LLC.</a>.</p>
+        </footer>
+
+    </div>
+
+    <!-- BG -->
+    <div id="bg"></div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>

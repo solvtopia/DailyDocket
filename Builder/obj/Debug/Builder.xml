@@ -1,0 +1,2044 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Builder
+</name>
+</assembly>
+<members>
+<member name="M:Builder.Controls.TextBoxes.Base.DataValue">
+ <summary>
+ 
+ </summary>
+ <returns>Object</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Builder.Controls.TextBoxes.Base.CheckErrors">
+ <summary>
+ 
+ </summary>
+ <returns>String containing data input error description</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Builder.Controls.TextBoxes.Base.ClearErrors(System.Boolean)">
+ <summary>
+ Clears control's error text and optionally clears associated error label control
+ </summary>
+ <param name="ClearErrorLabel">Set to True to clear associated error label control</param>
+ <remarks></remarks>
+</member>
+<member name="M:Builder.Controls.TextBoxes.NumericTextBox.DataValue">
+ <summary>
+ 
+ </summary>
+ <returns>Object</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Builder.Controls.TextBoxes.NumericTextBox.CheckErrors">
+ <summary>
+ 
+ </summary>
+ <returns>String containing data input error description</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Builder.Controls.TextBoxes.NumericTextBox.ClearErrors(System.Boolean)">
+ <summary>
+ Clears control's error text and optionally clears associated error label control
+ </summary>
+ <param name="ClearErrorLabel">Set to True to clear associated error label control</param>
+ <remarks></remarks>
+</member>
+<member name="M:Builder.Controls.TextBoxes.DateTextBox.DataValue">
+ <summary>
+ 
+ </summary>
+ <returns>Object</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Builder.Controls.TextBoxes.DateTextBox.CheckErrors">
+ <summary>
+ 
+ </summary>
+ <returns>String containing data input error description</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Builder.Controls.TextBoxes.DateTextBox.ClearErrors(System.Boolean)">
+ <summary>
+ Clears control's error text and optionally clears associated error label control
+ </summary>
+ <param name="ClearErrorLabel">Set to True to clear associated error label control</param>
+ <remarks></remarks>
+</member>
+<member name="M:Builder.Controls.TextBoxes.MaskedTextBox.CheckErrors">
+ <summary>
+ 
+ </summary>
+ <returns>String containing data input error description</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Builder.Controls.TextBoxes.MaskedTextBox.ClearErrors(System.Boolean)">
+ <summary>
+ Clears control's error text and optionally clears associated error label control
+ </summary>
+ <param name="ClearErrorLabel">Set to True to clear associated error label control</param>
+ <remarks></remarks>
+</member>
+<member name="P:Builder.Controls.DropDownLists.Base.PromptItemValue">
+ <summary>
+ 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks>This is used during routine to write control data to data source. 
+ If the dropdownlist's SelectedValue property is the same as its PromptItemValue property then
+ a NULL value is written to the data column.
+ This property will typically be set during a listitem population routine.</remarks>
+</member>
+<member name="M:Builder.Controls.DropDownLists.Base.ClearErrors(System.Boolean)">
+ <summary>
+ Clears control's error text and optionally clears associated error label control
+ </summary>
+ <param name="ClearErrorLabel">Set to True to clear associated error label control</param>
+ <remarks></remarks>
+</member>
+<member name="M:Builder.Controls.CheckBoxes.Base.CheckErrors">
+ <summary>
+ 
+ </summary>
+ <returns>String containing data input error description</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Builder.Controls.CheckBoxes.Base.ClearErrors(System.Boolean)">
+ <summary>
+ Clears control's error text and optionally clears associated error label control
+ </summary>
+ <param name="ClearErrorLabel">Set to True to clear associated error label control</param>
+ <remarks></remarks>
+</member>
+<member name="M:Builder.Controls.RadioButtons.Base.CheckErrors">
+ <summary>
+ 
+ </summary>
+ <returns>String containing data input error description</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Builder.Controls.RadioButtons.Base.ClearErrors(System.Boolean)">
+ <summary>
+ Clears control's error text and optionally clears associated error label control
+ </summary>
+ <param name="ClearErrorLabel">Set to True to clear associated error label control</param>
+ <remarks></remarks>
+</member>
+<member name="F:Builder._Default._pnlRootOptions">
+<summary>
+pnlRootOptions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._Default._lnkNewModule">
+<summary>
+lnkNewModule control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._Default._lnkNewFolder">
+<summary>
+lnkNewFolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._Default._pnlFolderOptions">
+<summary>
+pnlFolderOptions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._Default._lnkNewModule1">
+<summary>
+lnkNewModule1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._Default._lnkDeleteFolder">
+<summary>
+lnkDeleteFolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._Default._lnkEditFolder">
+<summary>
+lnkEditFolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._Default._pnlNoOptions">
+<summary>
+pnlNoOptions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._Default._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._Default._tblModules">
+<summary>
+tblModules control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:Builder._Default.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:Builder.Layout._headContent">
+<summary>
+headContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._RadScriptManager">
+<summary>
+RadScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._RadFormDecorator">
+<summary>
+RadFormDecorator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._mnuMain">
+<summary>
+mnuMain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._imgLogo">
+<summary>
+imgLogo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._MainAjaxLoadingPanel">
+<summary>
+MainAjaxLoadingPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._imgLoading">
+<summary>
+imgLoading control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._pbrMain">
+<summary>
+pbrMain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._ibtnAvitar">
+<summary>
+ibtnAvitar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._lblUserInfo_Name">
+<summary>
+lblUserInfo_Name control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._lblUserInfo_Email">
+<summary>
+lblUserInfo_Email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._lblUserInfo_Role">
+<summary>
+lblUserInfo_Role control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._utilitiesContent">
+<summary>
+utilitiesContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._pageHeaderContent">
+<summary>
+pageHeaderContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._pageContent_Ajax">
+<summary>
+pageContent_Ajax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._pageContent_OutsideAjax">
+<summary>
+pageContent_OutsideAjax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._RadWindowManager">
+<summary>
+RadWindowManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._ModuleWizardWindow">
+<summary>
+ModuleWizardWindow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._ModuleWindow">
+<summary>
+ModuleWindow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._LoginWindow">
+<summary>
+LoginWindow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._ProfileWindow">
+<summary>
+ProfileWindow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Layout._ConfirmationWindow">
+<summary>
+ConfirmationWindow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.PopUp._headContent">
+<summary>
+headContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.PopUp._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.PopUp._RadScriptManager">
+<summary>
+RadScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.PopUp._RadFormDecorator">
+<summary>
+RadFormDecorator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.PopUp._MainAjaxPanel_Popup">
+<summary>
+MainAjaxPanel_Popup control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.PopUp._pageContent_Ajax">
+<summary>
+pageContent_Ajax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.PopUp._pageContent_OutsideAjax">
+<summary>
+pageContent_OutsideAjax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.PopUp._imgLogo">
+<summary>
+imgLogo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.PopUp._RadWindowManager">
+<summary>
+RadWindowManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.PopUp._ConfirmationWindow">
+<summary>
+ConfirmationWindow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Wizard._wizardHeadContent">
+<summary>
+wizardHeadContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Wizard._wizardContent_Ajax">
+<summary>
+wizardContent_Ajax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Wizard._imgIcon">
+<summary>
+imgIcon control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Wizard._wizardInfoContent">
+<summary>
+wizardInfoContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Wizard._wizardContent_OutsideAjax">
+<summary>
+wizardContent_OutsideAjax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="T:Builder.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Builder.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:Builder.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:Builder.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:Builder.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:Builder.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:Builder.RadEditor._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.RadEditor._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.RadEditor._RadEditor1">
+<summary>
+RadEditor1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Confirmation._imgIcon">
+<summary>
+imgIcon control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Confirmation._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Confirmation._litMessage">
+<summary>
+litMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Confirmation._pnlChooseFolder">
+<summary>
+pnlChooseFolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Confirmation._ddlFolder">
+<summary>
+ddlFolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Confirmation._btnYes">
+<summary>
+btnYes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Confirmation._btnNo">
+<summary>
+btnNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._Module._RadModuleMenu">
+<summary>
+RadModuleMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._Module._RadEditMenu">
+<summary>
+RadEditMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._Module._pnlScroll">
+<summary>
+pnlScroll control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._Module._txtAcctNumber">
+<summary>
+txtAcctNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._Module._tblFolderQuestions">
+<summary>
+tblFolderQuestions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._Module._tblModuleQuestions">
+<summary>
+tblModuleQuestions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._Module._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._Module._txtID">
+<summary>
+txtID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._Module._txtUserEmail">
+<summary>
+txtUserEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._RadModuleMenu">
+<summary>
+RadModuleMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._RadLandingMenu">
+<summary>
+RadLandingMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._pnlScroll">
+<summary>
+pnlScroll control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._pnlOptions">
+<summary>
+pnlOptions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._btnNew">
+<summary>
+btnNew control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._pnlNew">
+<summary>
+pnlNew control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._imgHelp_AcctNum_New">
+<summary>
+imgHelp_AcctNum_New control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._txtAcctNumber_New">
+<summary>
+txtAcctNumber_New control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._imgHelp_Address">
+<summary>
+imgHelp_Address control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._txtAddress">
+<summary>
+txtAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._btnSearch_New">
+<summary>
+btnSearch_New control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._imgHelp_Customers_New">
+<summary>
+imgHelp_Customers_New control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._RadCustomerGrid_New">
+<summary>
+RadCustomerGrid_New control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._pnlSearch">
+<summary>
+pnlSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._imgHelp_AcctNum_Existing">
+<summary>
+imgHelp_AcctNum_Existing control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._txtAcctNumber_Existing">
+<summary>
+txtAcctNumber_Existing control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._imgHelp_ID">
+<summary>
+imgHelp_ID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._txtTransactionID">
+<summary>
+txtTransactionID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._btnSearch_Existing">
+<summary>
+btnSearch_Existing control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._btnShowAll">
+<summary>
+btnShowAll control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._imgHelp_Customers_Existing">
+<summary>
+imgHelp_Customers_Existing control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleLandingPage._RadCustomerGrid_Existing">
+<summary>
+RadCustomerGrid_Existing control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._pnlStep1">
+<summary>
+pnlStep1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._imgHelp_Name">
+<summary>
+imgHelp_Name control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._imgHelp_Desc">
+<summary>
+imgHelp_Desc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._txtDescription">
+<summary>
+txtDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._pnlModuleStep1Questions">
+<summary>
+pnlModuleStep1Questions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._imgHelp_Folder">
+<summary>
+imgHelp_Folder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._ddlFolder">
+<summary>
+ddlFolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._imgHelp_Icon">
+<summary>
+imgHelp_Icon control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._ddlIcon">
+<summary>
+ddlIcon control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._imgIcon">
+<summary>
+imgIcon control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._pnlStep2">
+<summary>
+pnlStep2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._imgHelp_Question">
+<summary>
+imgHelp_Question control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._ddlQuestion">
+<summary>
+ddlQuestion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._lblDataField">
+<summary>
+lblDataField control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._imgHelp_Type">
+<summary>
+imgHelp_Type control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._ddlQuestionType">
+<summary>
+ddlQuestionType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._imgHelp_Required">
+<summary>
+imgHelp_Required control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._chkRequired">
+<summary>
+chkRequired control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._imgHelp_Search">
+<summary>
+imgHelp_Search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._chkSearch">
+<summary>
+chkSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._imgHelp_Reporting">
+<summary>
+imgHelp_Reporting control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._chkReporting">
+<summary>
+chkReporting control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._imgHelp_Export">
+<summary>
+imgHelp_Export control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._chkExport">
+<summary>
+chkExport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._imgHelp_Values">
+<summary>
+imgHelp_Values control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._txtDDLValue">
+<summary>
+txtDDLValue control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._btnAddValue">
+<summary>
+btnAddValue control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._lstValues">
+<summary>
+lstValues control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._btnRemoveValue">
+<summary>
+btnRemoveValue control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._btnAdd">
+<summary>
+btnAdd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._imgHelp_Preview">
+<summary>
+imgHelp_Preview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._tblQuestions">
+<summary>
+tblQuestions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._pnlStep3">
+<summary>
+pnlStep3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._lblModuleName1">
+<summary>
+lblModuleName1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._pnlStep4">
+<summary>
+pnlStep4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._pnlStep5">
+<summary>
+pnlStep5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._pnlStep6">
+<summary>
+pnlStep6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._btnNext">
+<summary>
+btnNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._lblClientID">
+<summary>
+lblClientID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._lblUserID">
+<summary>
+lblUserID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._lblID">
+<summary>
+lblID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._pnlStepInfo1">
+<summary>
+pnlStepInfo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._pnlFolderStepInfo1">
+<summary>
+pnlFolderStepInfo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._pnlModuleStepInfo1">
+<summary>
+pnlModuleStepInfo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._pnlStepInfo2">
+<summary>
+pnlStepInfo2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._pnlFolderStepInfo2">
+<summary>
+pnlFolderStepInfo2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._pnlModuleStepInfo2">
+<summary>
+pnlModuleStepInfo2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._lblModuleName">
+<summary>
+lblModuleName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._pnlStepInfo3">
+<summary>
+pnlStepInfo3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._pnlStepInfo4">
+<summary>
+pnlStepInfo4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._pnlStepInfo5">
+<summary>
+pnlStepInfo5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.ModuleWizard._pnlStepInfo6">
+<summary>
+pnlStepInfo6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Print._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Profile._btnSave">
+<summary>
+btnSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Profile._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._RadScriptManager">
+<summary>
+RadScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._RadFormDecorator">
+<summary>
+RadFormDecorator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._pnlStep1">
+<summary>
+pnlStep1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._txtClientName">
+<summary>
+txtClientName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._txtClientAddress1">
+<summary>
+txtClientAddress1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._txtClientAddress2">
+<summary>
+txtClientAddress2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._txtClientCity">
+<summary>
+txtClientCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._txtClientState">
+<summary>
+txtClientState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._txtClientZipCode">
+<summary>
+txtClientZipCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._txtClientContactName">
+<summary>
+txtClientContactName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._txtClientContactPhone">
+<summary>
+txtClientContactPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._txtClientContactEmail">
+<summary>
+txtClientContactEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._pnlStep2">
+<summary>
+pnlStep2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._txtAdminName">
+<summary>
+txtAdminName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._txtAdminEmail">
+<summary>
+txtAdminEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._txtAdminPassword">
+<summary>
+txtAdminPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._txtAdminPasswordConfirm">
+<summary>
+txtAdminPasswordConfirm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._pnlStep3">
+<summary>
+pnlStep3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._btnNext">
+<summary>
+btnNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._lblClientID">
+<summary>
+lblClientID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Register1._lblUserID">
+<summary>
+lblUserID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Login._pnlForm">
+<summary>
+pnlForm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Login._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Login._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Login._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Login._btnLogin">
+<summary>
+btnLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Search._RadModuleMenu">
+<summary>
+RadModuleMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Search._RadSearchMenu">
+<summary>
+RadSearchMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Search._pnlScroll">
+<summary>
+pnlScroll control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Search._RadSearchGrid">
+<summary>
+RadSearchGrid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Search._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Search._lblFields">
+<summary>
+lblFields control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Search._lblClientID">
+<summary>
+lblClientID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Search._lblModuleID">
+<summary>
+lblModuleID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Search._lblCustAcctNum">
+<summary>
+lblCustAcctNum control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder.Search._lblFilterID">
+<summary>
+lblFilterID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._WizardTemplate._pnlStep1">
+<summary>
+pnlStep1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._WizardTemplate._pnlStep2">
+<summary>
+pnlStep2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._WizardTemplate._pnlStep3">
+<summary>
+pnlStep3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._WizardTemplate._pnlStep4">
+<summary>
+pnlStep4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._WizardTemplate._pnlStep5">
+<summary>
+pnlStep5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._WizardTemplate._pnlStep6">
+<summary>
+pnlStep6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._WizardTemplate._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._WizardTemplate._btnNext">
+<summary>
+btnNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._WizardTemplate._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._WizardTemplate._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._WizardTemplate._lblClientID">
+<summary>
+lblClientID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._WizardTemplate._lblUserID">
+<summary>
+lblUserID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._WizardTemplate._lblID">
+<summary>
+lblID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._WizardTemplate._pnlStepInfo1">
+<summary>
+pnlStepInfo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._WizardTemplate._pnlStepInfo2">
+<summary>
+pnlStepInfo2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._WizardTemplate._pnlStepInfo3">
+<summary>
+pnlStepInfo3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._WizardTemplate._pnlStepInfo4">
+<summary>
+pnlStepInfo4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._WizardTemplate._pnlStepInfo5">
+<summary>
+pnlStepInfo5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Builder._WizardTemplate._pnlStepInfo6">
+<summary>
+pnlStepInfo6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

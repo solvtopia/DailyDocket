@@ -1,0 +1,373 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+UtilityWizards.API
+</name>
+</assembly>
+<members>
+<member name="P:UtilityWizards.API._Default.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Layout._headContent">
+<summary>
+headContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Layout._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Layout._RadScriptManager">
+<summary>
+RadScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Layout._RadFormDecorator">
+<summary>
+RadFormDecorator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Layout._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Layout._mnuMain">
+<summary>
+mnuMain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Layout._imgLogo">
+<summary>
+imgLogo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Layout._MainAjaxLoadingPanel">
+<summary>
+MainAjaxLoadingPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Layout._imgLoading">
+<summary>
+imgLoading control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Layout._pbrMain">
+<summary>
+pbrMain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Layout._objectsContent">
+<summary>
+objectsContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Layout._routinesContent">
+<summary>
+routinesContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Layout._pageHeaderContent">
+<summary>
+pageHeaderContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Layout._pageContent_Ajax">
+<summary>
+pageContent_Ajax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Layout._pageContent_OutsideAjax">
+<summary>
+pageContent_OutsideAjax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Layout._RadWindowManager">
+<summary>
+RadWindowManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Layout._ModuleWizardWindow">
+<summary>
+ModuleWizardWindow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Layout._ModuleWindow">
+<summary>
+ModuleWindow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Layout._LoginWindow">
+<summary>
+LoginWindow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Layout._ProfileWindow">
+<summary>
+ProfileWindow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Layout._ConfirmationWindow">
+<summary>
+ConfirmationWindow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.PopUp._headContent">
+<summary>
+headContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.PopUp._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.PopUp._RadScriptManager">
+<summary>
+RadScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.PopUp._RadFormDecorator">
+<summary>
+RadFormDecorator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.PopUp._MainAjaxPanel_Popup">
+<summary>
+MainAjaxPanel_Popup control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.PopUp._pageContent_Ajax">
+<summary>
+pageContent_Ajax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.PopUp._pageContent_OutsideAjax">
+<summary>
+pageContent_OutsideAjax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.PopUp._imgLogo">
+<summary>
+imgLogo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.PopUp._RadWindowManager">
+<summary>
+RadWindowManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.PopUp._ConfirmationWindow">
+<summary>
+ConfirmationWindow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Wizard._wizardHeadContent">
+<summary>
+wizardHeadContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Wizard._wizardContent_Ajax">
+<summary>
+wizardContent_Ajax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Wizard._imgIcon">
+<summary>
+imgIcon control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Wizard._wizardInfoContent">
+<summary>
+wizardInfoContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.API.Wizard._wizardContent_OutsideAjax">
+<summary>
+wizardContent_OutsideAjax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="T:UtilityWizards.API.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:UtilityWizards.API.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:UtilityWizards.API.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:UtilityWizards.API.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:UtilityWizards.API.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:UtilityWizards.API.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+</members>
+</doc>

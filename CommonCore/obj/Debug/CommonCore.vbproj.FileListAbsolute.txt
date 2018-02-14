@@ -1,0 +1,16 @@
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\obj\Debug\CommonCore.vbprojResolveAssemblyReference.cache
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\obj\Debug\UtilityWizards.CommonCore.Resources.resources
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\obj\Debug\CommonCore.vbproj.GenerateResource.Cache
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\obj\Debug\UtilityWizards.CommonCore.xml
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\bin\Debug\UtilityWizards.CommonCore.dll
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\bin\Debug\UtilityWizards.CommonCore.pdb
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\bin\Debug\UtilityWizards.CommonCore.xml
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\bin\Debug\Telerik.Web.UI.dll
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\bin\Debug\Telerik.WinControls.UI.dll
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\bin\Debug\Telerik.WinControls.dll
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\bin\Debug\TelerikCommon.dll
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\bin\Debug\Telerik.Web.UI.xml
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\bin\Debug\Telerik.WinControls.UI.xml
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\bin\Debug\Telerik.WinControls.xml
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\obj\Debug\UtilityWizards.CommonCore.dll
+C:\Projects\Solvtopia\UtilityWizards\CommonCore\obj\Debug\UtilityWizards.CommonCore.pdb

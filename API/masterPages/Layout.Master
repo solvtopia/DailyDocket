@@ -1,0 +1,172 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Layout.master.vb" Inherits="DailyDocket.API.Layout" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Utility Wizards</title>
+    <link href="https://access.dailycourtdocket.com/styles/DailyDocket.css" rel="stylesheet" />
+    <style type="text/css">
+        .layout-header_style1 {
+            width: 100%;
+            background: rgba(255, 255, 255,0.8);
+        }
+
+        .layout-style1 {
+            width: 100%;
+        }
+    </style>
+    <script>
+        //if (window.location.protocol != "https:")
+        //    if (window.location.href.indexOf("localhost") < 0) {
+        //        window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+        //    }
+    </script>
+    <asp:ContentPlaceHolder ID="headContent" runat="server" />
+</head>
+<body style="background-image: url('https://access.dailycourtdocket.com/images/bg_site.jpg'); background-repeat: no-repeat; background-attachment: fixed;">
+    <form id="form1" runat="server">
+        <div>
+            <telerik:RadScriptManager ID="RadScriptManager" runat="server">
+                <Scripts>
+                    <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js"></asp:ScriptReference>
+                    <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js"></asp:ScriptReference>
+                    <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js"></asp:ScriptReference>
+                </Scripts>
+            </telerik:RadScriptManager>
+            <telerik:RadFormDecorator ID="RadFormDecorator" runat="server" Skin="MetroTouch" />
+            <telerik:RadAjaxPanel ID="MainAjaxPanel" runat="server" Width="100%" HorizontalAlign="NotSet" LoadingPanelID="MainAjaxLoadingPanel">
+                <table cellpadding="0" cellspacing="0" class="layout-style1">
+                    <tr>
+                        <td style="vertical-align: top;" colspan="2">
+                            <table class="layout-header_style1">
+                                <tr>
+                                    <td>
+                                        <span style="font-size: x-large">&nbsp;&nbsp;&nbsp;Utility Wizards API Documentation</span>
+                                    </td>
+                                    <td rowspan="3" style="vertical-align: top; text-align: right; width: 80px;">
+                                        <asp:Image runat="server" ID="imgLogo" AlternateText="UtilityWizards" ImageUrl="https://access.dailycourtdocket.com/images/icon.png" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="height: 20px;">
+                                        <telerik:RadAjaxLoadingPanel ID="MainAjaxLoadingPanel" runat="server" Skin="MetroTouch" Width="100%" BackgroundPosition="None" IsSticky="True">
+                                            <center><asp:Image runat="server" ID="imgLoading" AlternateText="Loading" ImageUrl="https://access.dailycourtdocket.com/images/loading.gif"  /></center>
+                                        </telerik:RadAjaxLoadingPanel>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="height: 20px;">&nbsp;</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top; width: 200px;">
+                            <table class="layout-style1">
+                                <tr>
+                                    <td>
+                                        <telerik:RadTreeView ID="rtvNav" runat="server" BackColor="#27AAD0" Skin="MetroTouch">
+                                            <Nodes>
+                                                <telerik:RadTreeNode runat="server" Text="DailyDocket.API" Expanded="True" PostBack="False">
+                                                    <Nodes>
+                                                        <telerik:RadTreeNode runat="server" Text="InputController" Value="InputController" Expanded="True">
+                                                            <Nodes>
+                                                                <telerik:RadTreeNode runat="server" Text="Public Routines" Expanded="True" PostBack="False">
+                                                                    <Nodes>
+                                                                        <telerik:RadTreeNode runat="server" Text="UpdateCustomerRecord" Value="UpdateCustomerRecord" />
+                                                                    </Nodes>
+                                                                </telerik:RadTreeNode>
+                                                                <telerik:RadTreeNode runat="server" Text="Mobile Ready Routines" Expanded="True" PostBack="False">
+                                                                    <Nodes>
+                                                                        <telerik:RadTreeNode runat="server" Text="CloseWorkOrder_M" Value="CloseWorkOrder_M" />
+                                                                        <telerik:RadTreeNode runat="server" Text="MarkAsViewed_M" Value="MarkAsViewed_M" />
+                                                                    </Nodes>
+                                                                </telerik:RadTreeNode>
+                                                            </Nodes>
+                                                        </telerik:RadTreeNode>
+                                                        <telerik:RadTreeNode runat="server" Text="OutputController" Value="OutputController" Expanded="True">
+                                                            <Nodes>
+                                                                <telerik:RadTreeNode runat="server" Text="Public Routines" Expanded="True" PostBack="False">
+                                                                    <Nodes>
+                                                                        <telerik:RadTreeNode runat="server" Text="GetAllCustomers" Value="GetAllCustomers" />
+                                                                        <telerik:RadTreeNode runat="server" Text="GetCustomerByAcctNum" Value="GetCustomerByID" />
+                                                                        <telerik:RadTreeNode runat="server" Text="GetApiKey" Value="GetApiKey" />
+                                                                    </Nodes>
+                                                                </telerik:RadTreeNode>
+                                                                <telerik:RadTreeNode runat="server" Text="Mobile Ready Routines" Expanded="True" PostBack="False">
+                                                                    <Nodes>
+                                                                        <telerik:RadTreeNode runat="server" Text="CheckLogin_M" Value="CheckLogin_M" />
+                                                                        <telerik:RadTreeNode runat="server" Text="GetOpenWorkOrders_M" Value="GetOpenWorkOrders_M" />
+                                                                        <telerik:RadTreeNode runat="server" Text="GetOpenWorkOrderCount_M" Value="GetOpenWorkOrderCount_M" />
+                                                                        <telerik:RadTreeNode runat="server" Text="GetModuleQuestions_M" Value="GetModuleQuestions_M" />
+                                                                    </Nodes>
+                                                                </telerik:RadTreeNode>
+                                                            </Nodes>
+                                                        </telerik:RadTreeNode>
+                                                    </Nodes>
+                                                </telerik:RadTreeNode>
+                                                <telerik:RadTreeNode runat="server" Text="DailyDocket.CommonCore" Expanded="True" PostBack="False">
+                                                    <Nodes>
+                                                        <telerik:RadTreeNode runat="server" Text="Enums" Expanded="True" PostBack="False">
+                                                            <Nodes>
+                                                                <telerik:RadTreeNode runat="server" Text="SystemUserPermissions" Value="SystemUserPermissions" />
+                                                                <telerik:RadTreeNode runat="server" Text="ApiResultCode" Value="ApiResultCode" />
+                                                                <telerik:RadTreeNode runat="server" Text="SystemQuestionType" Value="SystemQuestionType" />
+                                                            </Nodes>
+                                                        </telerik:RadTreeNode>
+                                                        <telerik:RadTreeNode runat="server" Text="Objects" Expanded="True" PostBack="False">
+                                                            <Nodes>
+                                                                <telerik:RadTreeNode runat="server" Text="SystemUser" Value="SystemUser" />
+                                                                <telerik:RadTreeNode runat="server" Text="ApiKeyResult" Value="ApiKeyResult" />
+                                                                <telerik:RadTreeNode runat="server" Text="ApiResponse" Value="ApiResponse" />
+                                                                <telerik:RadTreeNode runat="server" Text="CustomerRecord" Value="CustomerRecord" />
+                                                                <telerik:RadTreeNode runat="server" Text="MobileWorkOrder" Value="MobileWorkOrder" />
+                                                                <telerik:RadTreeNode runat="server" Text="NameValuePair" Value="NameValuePair" />
+                                                                <telerik:RadTreeNode runat="server" Text="SystemQuestion" Value="SystemQuestion" />
+                                                            </Nodes>
+                                                        </telerik:RadTreeNode>
+                                                    </Nodes>
+                                                </telerik:RadTreeNode>
+                                            </Nodes>
+                                        </telerik:RadTreeView>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="vertical-align: top; width: 80%;">
+                            <table class="layout-style1">
+                                <tr>
+                                    <td style="border: 1px solid #828282; height: 23px; background-image: url('https://access.dailycourtdocket.com/images/bg_header.png'); background-repeat: repeat-x; padding-left: 10px;">
+                                        <asp:ContentPlaceHolder ID="pageHeaderContent" runat="server" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-left: 10px; background: rgba(255,255,255,0.8);">
+                                        <asp:ContentPlaceHolder ID="pageContent_Ajax" runat="server" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </telerik:RadAjaxPanel>
+            <asp:ContentPlaceHolder ID="pageContent_OutsideAjax" runat="server" />
+            <telerik:RadWindowManager Style="z-index: 7001" ID="RadWindowManager" ShowContentDuringLoad="false"
+                VisibleStatusbar="false" ReloadOnShow="true" runat="server" EnableShadow="true" Skin="MetroTouch">
+                <Windows>
+                    <telerik:RadWindow ID="InformationWindow" runat="server" Behaviors="None" Modal="true"
+                        NavigateUrl="~/Default.aspx" OnClientClose="onInformationWindowClientClose" Height="768"
+                        Width="1024" Title="Information Pop Up" InitialBehaviors="Close" Skin="MetroTouch">
+                    </telerik:RadWindow>
+                </Windows>
+            </telerik:RadWindowManager>
+        </div>
+    </form>
+</body>
+</html>

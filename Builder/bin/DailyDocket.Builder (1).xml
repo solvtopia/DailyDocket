@@ -1,0 +1,4478 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DailyDocket.Builder
+</name>
+</assembly>
+<members>
+<member name="T:DailyDocket.Builder.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DailyDocket.Builder.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:DailyDocket.Builder.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:DailyDocket.Builder.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:DailyDocket.Builder.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:DailyDocket.Builder.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="T:DailyDocket.Builder.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DailyDocket.Builder.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DailyDocket.Builder.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:DailyDocket.Builder.CaseDetails._lblSSL">
+<summary>
+lblSSL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.CaseDetails._RecordDetails">
+<summary>
+RecordDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:DailyDocket.Builder.CaseDetails.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.LoginHelp._lblSSL">
+<summary>
+lblSSL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.LoginHelp._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.LoginHelp._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.LoginHelp._txtMobileNumber">
+<summary>
+txtMobileNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.LoginHelp._btnLogin">
+<summary>
+btnLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.LoginHelp._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:DailyDocket.Builder.LoginHelp.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._lblSSL">
+<summary>
+lblSSL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._RadTabStrip1">
+<summary>
+RadTabStrip1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._RadMultiPage1">
+<summary>
+RadMultiPage1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._RadPageView1">
+<summary>
+RadPageView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._lstClients">
+<summary>
+lstClients control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._pnlClientRecord">
+<summary>
+pnlClientRecord control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._RadTabStrip2">
+<summary>
+RadTabStrip2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._RadMultiPage2">
+<summary>
+RadMultiPage2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._RadPageView4">
+<summary>
+RadPageView4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._txtMobileNumber">
+<summary>
+txtMobileNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._txtAddress1">
+<summary>
+txtAddress1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._txtAddress2">
+<summary>
+txtAddress2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._txtZipCode">
+<summary>
+txtZipCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._txtCity">
+<summary>
+txtCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._ddlState">
+<summary>
+ddlState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._btnSaveClient">
+<summary>
+btnSaveClient control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._RadPageView5">
+<summary>
+RadPageView5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._RadAjaxPanel5">
+<summary>
+RadAjaxPanel5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._RadAjaxPanel1">
+<summary>
+RadAjaxPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._RadMultiPage3">
+<summary>
+RadMultiPage3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._fraClientSMSLog">
+<summary>
+fraClientSMSLog control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._RadPageView2">
+<summary>
+RadPageView2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._ddlTo">
+<summary>
+ddlTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._RadTabStrip3">
+<summary>
+RadTabStrip3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._RadMultiPage4">
+<summary>
+RadMultiPage4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._RadPageView6">
+<summary>
+RadPageView6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._txtSubject">
+<summary>
+txtSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._RadEditor1">
+<summary>
+RadEditor1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._RadPageView7">
+<summary>
+RadPageView7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._txtSMS">
+<summary>
+txtSMS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._btnSend">
+<summary>
+btnSend control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._lblError">
+<summary>
+lblError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._RadPageView3">
+<summary>
+RadPageView3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._txtMobileNumbers">
+<summary>
+txtMobileNumbers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._ddlNotificationType">
+<summary>
+ddlNotificationType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._lblNotificationLevel">
+<summary>
+lblNotificationLevel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._ddlNotificationLevel">
+<summary>
+ddlNotificationLevel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._lblMaxSMSPerBatch">
+<summary>
+lblMaxSMSPerBatch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._txtMaxSMSPerBatch">
+<summary>
+txtMaxSMSPerBatch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._btnSaveSettings">
+<summary>
+btnSaveSettings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._RadPageView8">
+<summary>
+RadPageView8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._RadAjaxPanel2">
+<summary>
+RadAjaxPanel2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._RadMultiPage5">
+<summary>
+RadMultiPage5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MessageCenter._fraAttorneySMSLog">
+<summary>
+fraAttorneySMSLog control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:DailyDocket.Builder.MessageCenter.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Preview._lblSSL">
+<summary>
+lblSSL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Preview._lblTotalCases">
+<summary>
+lblTotalCases control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Preview._lblTotalAttorneys">
+<summary>
+lblTotalAttorneys control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Preview._lblCasesToday">
+<summary>
+lblCasesToday control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Preview._lblAttorneySMS">
+<summary>
+lblAttorneySMS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Preview._txtBarNumber">
+<summary>
+txtBarNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Preview._btnFind">
+<summary>
+btnFind control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Preview._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Preview._pnlStep2">
+<summary>
+pnlStep2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Preview._lblCaseCount">
+<summary>
+lblCaseCount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Preview._pnlDates">
+<summary>
+pnlDates control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Preview._tblDates">
+<summary>
+tblDates control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Preview._RadSearchGridMobile">
+<summary>
+RadSearchGridMobile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Preview._radScheduler">
+<summary>
+radScheduler control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Preview._txtClientCharge">
+<summary>
+txtClientCharge control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Preview._pnlChart">
+<summary>
+pnlChart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Preview._lblAttorneyCost">
+<summary>
+lblAttorneyCost control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Preview._lblClientFees">
+<summary>
+lblClientFees control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Preview._RadHtmlChart1">
+<summary>
+RadHtmlChart1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:DailyDocket.Builder.Preview.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SSO._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.HelpEditor._lblSSL">
+<summary>
+lblSSL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.HelpEditor._txtSource">
+<summary>
+txtSource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.HelpEditor._txtContent">
+<summary>
+txtContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.HelpEditor._btnSave">
+<summary>
+btnSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.HelpEditor._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:DailyDocket.Builder.HelpEditor.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.HelpTopics._lblSSL">
+<summary>
+lblSSL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.HelpTopics._ddlType">
+<summary>
+ddlType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.HelpTopics._btnAddTopic">
+<summary>
+btnAddTopic control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.HelpTopics._tblTopics">
+<summary>
+tblTopics control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:DailyDocket.Builder.HelpTopics.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Logs._lblSSL">
+<summary>
+lblSSL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Logs._RadTabStrip1">
+<summary>
+RadTabStrip1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Logs._RadMultiPage1">
+<summary>
+RadMultiPage1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Logs._RadPageView1">
+<summary>
+RadPageView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Logs._ddlProject">
+<summary>
+ddlProject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Logs._RadGrid1">
+<summary>
+RadGrid1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Logs._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Logs._RadPageView2">
+<summary>
+RadPageView2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Logs._RadGrid2">
+<summary>
+RadGrid2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Logs._SqlDataSource2">
+<summary>
+SqlDataSource2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:DailyDocket.Builder.Logs.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.ProfitChart._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.ProfitChart._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.ProfitChart._pnlChart">
+<summary>
+pnlChart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.ProfitChart._lblAttorneyCost">
+<summary>
+lblAttorneyCost control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.ProfitChart._lblClientFees">
+<summary>
+lblClientFees control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.ProfitChart._RadHtmlChart1">
+<summary>
+RadHtmlChart1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SendMail._lblSSL">
+<summary>
+lblSSL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SendMail._ddlTo">
+<summary>
+ddlTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SendMail._txtCC">
+<summary>
+txtCC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SendMail._txtBCC">
+<summary>
+txtBCC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SendMail._RadTabStrip1">
+<summary>
+RadTabStrip1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SendMail._RadMultiPage1">
+<summary>
+RadMultiPage1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SendMail._RadPageView1">
+<summary>
+RadPageView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SendMail._txtSubject">
+<summary>
+txtSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SendMail._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SendMail._RadPageView2">
+<summary>
+RadPageView2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SendMail._txtSMS">
+<summary>
+txtSMS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SendMail._btnSend">
+<summary>
+btnSend control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SendMail._lblError">
+<summary>
+lblError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:DailyDocket.Builder.SendMail.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Calendar._lblSSL">
+<summary>
+lblSSL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Calendar._pnlDates">
+<summary>
+pnlDates control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Calendar._tblDates">
+<summary>
+tblDates control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Calendar._RadSearchGridMobile">
+<summary>
+RadSearchGridMobile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Calendar._radScheduler">
+<summary>
+radScheduler control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:DailyDocket.Builder.Calendar.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.ProcessorLog._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.ProcessorLog._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.ProcessorLog._RadPanelBar1">
+<summary>
+RadPanelBar1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SalesReport._lblSSL">
+<summary>
+lblSSL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SalesReport._RadTabStrip1">
+<summary>
+RadTabStrip1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SalesReport._RadMultiPage1">
+<summary>
+RadMultiPage1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SalesReport._RadPageView1">
+<summary>
+RadPageView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SalesReport._RadGrid1">
+<summary>
+RadGrid1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SalesReport._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SalesReport._RadPageView2">
+<summary>
+RadPageView2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SalesReport._RadGrid2">
+<summary>
+RadGrid2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SalesReport._SqlDataSource2">
+<summary>
+SqlDataSource2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:DailyDocket.Builder.SalesReport.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SMSLog._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SMSLog._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.SMSLog._RadPanelBar1">
+<summary>
+RadPanelBar1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.TopSalesReport._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.TopSalesReport._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.TopSalesReport._RadGrid1">
+<summary>
+RadGrid1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.TopSalesReport._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Users._lblSSL">
+<summary>
+lblSSL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Users._RadHtmlChart1">
+<summary>
+RadHtmlChart1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Users._RadHtmlChart2">
+<summary>
+RadHtmlChart2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Users._RadGrid1">
+<summary>
+RadGrid1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Users._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:DailyDocket.Builder.Users.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Availability._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Availability._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Availability._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Availability._tblCounties">
+<summary>
+tblCounties control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._RadTabStrip1">
+<summary>
+RadTabStrip1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._RadMultiPage1">
+<summary>
+RadMultiPage1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._RadPageView1">
+<summary>
+RadPageView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lblCaseNumber">
+<summary>
+lblCaseNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lblRecordNumber">
+<summary>
+lblRecordNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lblSessionDate">
+<summary>
+lblSessionDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lblSessionTime">
+<summary>
+lblSessionTime control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lblCourtRoom">
+<summary>
+lblCourtRoom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lblLocation">
+<summary>
+lblLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lblJudge">
+<summary>
+lblJudge control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lblCounty">
+<summary>
+lblCounty control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lblState">
+<summary>
+lblState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lblRecordType">
+<summary>
+lblRecordType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._pnlCivil">
+<summary>
+pnlCivil control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lblType">
+<summary>
+lblType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lblDaysSinceFiling">
+<summary>
+lblDaysSinceFiling control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lblLengthOfTrial">
+<summary>
+lblLengthOfTrial control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._pnlCivilIssues">
+<summary>
+pnlCivilIssues control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lstIssuesOrEvents">
+<summary>
+lstIssuesOrEvents control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._pnlCivilNotes">
+<summary>
+pnlCivilNotes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lstCivilNotes">
+<summary>
+lstCivilNotes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._pnlCriminal">
+<summary>
+pnlCriminal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lblClerk">
+<summary>
+lblClerk control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lblBond">
+<summary>
+lblBond control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lblTB">
+<summary>
+lblTB control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lblContinuances">
+<summary>
+lblContinuances control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._tblCharges">
+<summary>
+tblCharges control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._pnlCriminalNotes">
+<summary>
+pnlCriminalNotes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lstCriminalNotes">
+<summary>
+lstCriminalNotes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._RadPageView2">
+<summary>
+RadPageView2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._pnlCivilParties">
+<summary>
+pnlCivilParties control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lstCivilPlaintiff">
+<summary>
+lstCivilPlaintiff control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lstCivilPlaintiffAttorney">
+<summary>
+lstCivilPlaintiffAttorney control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lstCivilDefendant">
+<summary>
+lstCivilDefendant control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lstCivilDefendantAttorney">
+<summary>
+lstCivilDefendantAttorney control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._pnlCriminalParties">
+<summary>
+pnlCriminalParties control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lstProsecutor">
+<summary>
+lstProsecutor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lstAssistantDA">
+<summary>
+lstAssistantDA control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lstCriminalDefendant">
+<summary>
+lstCriminalDefendant control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lstCriminalDefendantAttorney">
+<summary>
+lstCriminalDefendantAttorney control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._RadPageView3">
+<summary>
+RadPageView3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._pnlScrollRawView">
+<summary>
+pnlScrollRawView control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._tblRawView">
+<summary>
+tblRawView control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._RadPageView4">
+<summary>
+RadPageView4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._btnNotMine">
+<summary>
+btnNotMine control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.RecordDetails._lblUrlString">
+<summary>
+lblUrlString control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.FAQ._lblSSL">
+<summary>
+lblSSL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.FAQ._pnlScroll">
+<summary>
+pnlScroll control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.FAQ._RadPanelBar1">
+<summary>
+RadPanelBar1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:DailyDocket.Builder.FAQ.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.MissingCase._lblSSL">
+<summary>
+lblSSL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:DailyDocket.Builder.MissingCase.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._liDashboard">
+<summary>
+liDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._lnkDashboard">
+<summary>
+lnkDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._pnlMainOptions">
+<summary>
+pnlMainOptions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._liHelp">
+<summary>
+liHelp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._lnkHelp">
+<summary>
+lnkHelp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._liFAQ">
+<summary>
+liFAQ control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._lnkFaq">
+<summary>
+lnkFaq control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._liMessages">
+<summary>
+liMessages control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._lnkMessages">
+<summary>
+lnkMessages control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._pnlAdmin">
+<summary>
+pnlAdmin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._liSalesReport">
+<summary>
+liSalesReport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._lnkSalesReport">
+<summary>
+lnkSalesReport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._liUsers">
+<summary>
+liUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._lnkUsers">
+<summary>
+lnkUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._liMailer">
+<summary>
+liMailer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._lnkMailer">
+<summary>
+lnkMailer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._liLogs">
+<summary>
+liLogs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._lnkLogs">
+<summary>
+lnkLogs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._liHelpTopics">
+<summary>
+liHelpTopics control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._lnkHelpTopics">
+<summary>
+lnkHelpTopics control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._pnlLoginOptions">
+<summary>
+pnlLoginOptions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._liLogin">
+<summary>
+liLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._lnkLogin">
+<summary>
+lnkLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._liForgotPassword">
+<summary>
+liForgotPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._lnkForgotPassword">
+<summary>
+lnkForgotPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._liRegister">
+<summary>
+liRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._lnkRegister">
+<summary>
+lnkRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Menu._lblUrlString">
+<summary>
+lblUrlString control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Msg._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Register._lblSSL">
+<summary>
+lblSSL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Register._RadMultiPage1">
+<summary>
+RadMultiPage1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Register._fraRegister">
+<summary>
+fraRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:DailyDocket.Builder.Register.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default._lblSSL">
+<summary>
+lblSSL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default._litArticle">
+<summary>
+litArticle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default._lblComingFrom">
+<summary>
+lblComingFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:DailyDocket.Builder._Default.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Login._lblSSL">
+<summary>
+lblSSL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Login._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Login._pnlForm">
+<summary>
+pnlForm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Login._imgLogo">
+<summary>
+imgLogo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Login._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Login._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Login._btnLogin">
+<summary>
+btnLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Login._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Login._pnlTip">
+<summary>
+pnlTip control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Login._litTip">
+<summary>
+litTip control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:DailyDocket.Builder.Login.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._lblSSL">
+<summary>
+lblSSL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._RadTabStrip1">
+<summary>
+RadTabStrip1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._RadMultiPage1">
+<summary>
+RadMultiPage1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._RadPageView1">
+<summary>
+RadPageView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._imgAvatar">
+<summary>
+imgAvatar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._imgHelp_Question">
+<summary>
+imgHelp_Question control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._Image1">
+<summary>
+Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._Image2">
+<summary>
+Image2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._Image8">
+<summary>
+Image8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._txtMobileNumber">
+<summary>
+txtMobileNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._RadPageView2">
+<summary>
+RadPageView2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._lblBarNumber">
+<summary>
+lblBarNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._lblName">
+<summary>
+lblName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._lblAddress">
+<summary>
+lblAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._lblWorkPhone">
+<summary>
+lblWorkPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._lblEmail">
+<summary>
+lblEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._lblLicenseDate">
+<summary>
+lblLicenseDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._RadPageView3">
+<summary>
+RadPageView3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._pnlBillingLock">
+<summary>
+pnlBillingLock control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._lblBillingLock">
+<summary>
+lblBillingLock control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._txtNameCard">
+<summary>
+txtNameCard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._txtAddress1">
+<summary>
+txtAddress1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._txtAddress2">
+<summary>
+txtAddress2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._txtZipCode">
+<summary>
+txtZipCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._txtCity">
+<summary>
+txtCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._ddlBillingState">
+<summary>
+ddlBillingState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._ddlCCType">
+<summary>
+ddlCCType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._txtCCNumber">
+<summary>
+txtCCNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._ddlExpMonth">
+<summary>
+ddlExpMonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._ddlExpYear">
+<summary>
+ddlExpYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._txtCVV">
+<summary>
+txtCVV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._RadPageView4">
+<summary>
+RadPageView4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._ddlNotificationType">
+<summary>
+ddlNotificationType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._lblNotificationLevel">
+<summary>
+lblNotificationLevel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._ddlNotificationLevel">
+<summary>
+ddlNotificationLevel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._lblMaxSMSPerBatch">
+<summary>
+lblMaxSMSPerBatch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._txtMaxSMSPerBatch">
+<summary>
+txtMaxSMSPerBatch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._litDeviceIDs">
+<summary>
+litDeviceIDs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._RadPageView5">
+<summary>
+RadPageView5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._btnCancelService">
+<summary>
+btnCancelService control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._lblEditID">
+<summary>
+lblEditID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._ddlClient">
+<summary>
+ddlClient control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._chkApiAccess">
+<summary>
+chkApiAccess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._chkWebAccess">
+<summary>
+chkWebAccess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._txtOneSignal">
+<summary>
+txtOneSignal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._ddlPermissions">
+<summary>
+ddlPermissions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._ddlSupervisor">
+<summary>
+ddlSupervisor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._txtDeviceID">
+<summary>
+txtDeviceID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._ddlDeviceType">
+<summary>
+ddlDeviceType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._btnSave">
+<summary>
+btnSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Profile._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:DailyDocket.Builder.Profile.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._lblSSL">
+<summary>
+lblSSL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._pnlCalendar">
+<summary>
+pnlCalendar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._ibtnRefresh">
+<summary>
+ibtnRefresh control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._pnlDemo">
+<summary>
+pnlDemo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._Image2">
+<summary>
+Image2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._lblDemoMessage">
+<summary>
+lblDemoMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._pnlConflict">
+<summary>
+pnlConflict control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._imgConflict">
+<summary>
+imgConflict control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._lblConflict">
+<summary>
+lblConflict control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._pnlMissingCounties">
+<summary>
+pnlMissingCounties control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._Image1">
+<summary>
+Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._lblMissingCounties">
+<summary>
+lblMissingCounties control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._pnlDates">
+<summary>
+pnlDates control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._tblDates">
+<summary>
+tblDates control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._RadSearchGridMobile">
+<summary>
+RadSearchGridMobile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._radScheduler">
+<summary>
+radScheduler control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._pnlDetails">
+<summary>
+pnlDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._RecordDetails">
+<summary>
+RecordDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._pnlAdminDB">
+<summary>
+pnlAdminDB control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._pnlBadges">
+<summary>
+pnlBadges control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._lblTotalCases">
+<summary>
+lblTotalCases control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._lblTotalAttorneys">
+<summary>
+lblTotalAttorneys control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._lblUsersMonth">
+<summary>
+lblUsersMonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._lblCasesToday">
+<summary>
+lblCasesToday control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._lblAttorneySMS">
+<summary>
+lblAttorneySMS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._lblClientSMS">
+<summary>
+lblClientSMS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._pnlSalesReport">
+<summary>
+pnlSalesReport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._RadAjaxPanel3">
+<summary>
+RadAjaxPanel3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._radTopSalesGrid">
+<summary>
+radTopSalesGrid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._RadAjaxPanel4">
+<summary>
+RadAjaxPanel4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._pnlAttorneySearch">
+<summary>
+pnlAttorneySearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._txtBarNumber">
+<summary>
+txtBarNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._txtFirstName">
+<summary>
+txtFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._txtLastName">
+<summary>
+txtLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._ddlState">
+<summary>
+ddlState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._btnFind">
+<summary>
+btnFind control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._pnlFound">
+<summary>
+pnlFound control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._lblBarNumber">
+<summary>
+lblBarNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._lblName">
+<summary>
+lblName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._lblAddress">
+<summary>
+lblAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._lblWorkPhone">
+<summary>
+lblWorkPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._lblEmail">
+<summary>
+lblEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._lblLicenseDate">
+<summary>
+lblLicenseDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._lblID">
+<summary>
+lblID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._lblUsername">
+<summary>
+lblUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._lblPassword">
+<summary>
+lblPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._lblCaseCount">
+<summary>
+lblCaseCount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._btnSaveAttorney">
+<summary>
+btnSaveAttorney control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._btnShowCalendar">
+<summary>
+btnShowCalendar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._btnStartOver">
+<summary>
+btnStartOver control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._RadAjaxPanel5">
+<summary>
+RadAjaxPanel5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._ddlSMSLogType">
+<summary>
+ddlSMSLogType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._RadAjaxPanel1">
+<summary>
+RadAjaxPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._RadMultiPage3">
+<summary>
+RadMultiPage3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._fraSMSLog">
+<summary>
+fraSMSLog control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._RadAjaxPanel2">
+<summary>
+RadAjaxPanel2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._ddlProcessorLogType">
+<summary>
+ddlProcessorLogType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._RadMultiPage2">
+<summary>
+RadMultiPage2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder._Default4._fraProcessorLog">
+<summary>
+fraProcessorLog control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:DailyDocket.Builder._Default4.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.ContentPage._headContent">
+<summary>
+headContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.ContentPage._menuContent">
+<summary>
+menuContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.ContentPage._breadcrumbContent">
+<summary>
+breadcrumbContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.ContentPage._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.ContentPage._imgBack">
+<summary>
+imgBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.ContentPage._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.ContentPage._pageContent_Ajax">
+<summary>
+pageContent_Ajax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.ContentPage._pageContent_OutsideAjax">
+<summary>
+pageContent_OutsideAjax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:DailyDocket.Builder.ContentPage.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.LayoutMobile._headContent">
+<summary>
+headContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.LayoutMobile._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.LayoutMobile._RadScriptManager">
+<summary>
+RadScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.LayoutMobile._RadFormDecorator">
+<summary>
+RadFormDecorator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.LayoutMobile._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.LayoutMobile._MainAjaxLoadingPanel">
+<summary>
+MainAjaxLoadingPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.LayoutMobile._pageContent">
+<summary>
+pageContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.LayoutMobile._pageContent_OutsideAjax">
+<summary>
+pageContent_OutsideAjax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._headContent">
+<summary>
+headContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._RadScriptManager">
+<summary>
+RadScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._MainAjaxLoadingPanel">
+<summary>
+MainAjaxLoadingPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._pnlTopRight">
+<summary>
+pnlTopRight control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._ibtnAvitar2">
+<summary>
+ibtnAvitar2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._lblUserInfo_Name2">
+<summary>
+lblUserInfo_Name2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._ibtnAvitar3">
+<summary>
+ibtnAvitar3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._lblUserInfo_Name3">
+<summary>
+lblUserInfo_Name3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._lblUserInfo_Role">
+<summary>
+lblUserInfo_Role control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._lblUserInfo_Email">
+<summary>
+lblUserInfo_Email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._RadAjaxPanel1">
+<summary>
+RadAjaxPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._btnProfile">
+<summary>
+btnProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._btnSignOut">
+<summary>
+btnSignOut control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._pnlUserInfo">
+<summary>
+pnlUserInfo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._ibtnAvitar">
+<summary>
+ibtnAvitar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._lblUserInfo_Name">
+<summary>
+lblUserInfo_Name control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._pnlMenu">
+<summary>
+pnlMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._MenuAjaxPanel1">
+<summary>
+MenuAjaxPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._Menu">
+<summary>
+Menu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._menuContent">
+<summary>
+menuContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._pnlBreadcrumbs">
+<summary>
+pnlBreadcrumbs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._breadcrumbContent">
+<summary>
+breadcrumbContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._pageContent_Ajax">
+<summary>
+pageContent_Ajax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._pageContent_OutsideAjax">
+<summary>
+pageContent_OutsideAjax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._lblMasterSSL">
+<summary>
+lblMasterSSL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Dashboard._lnkSolvtopia">
+<summary>
+lnkSolvtopia control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Wizard_V2._wizardHeadContent">
+<summary>
+wizardHeadContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Wizard_V2._wizardMenuContent">
+<summary>
+wizardMenuContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Wizard_V2._wizardBreadcrumbContent">
+<summary>
+wizardBreadcrumbContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Wizard_V2._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Wizard_V2._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Wizard_V2._wizardContent_Ajax">
+<summary>
+wizardContent_Ajax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Wizard_V2._wizardInfoContent">
+<summary>
+wizardInfoContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Wizard_V2._wizardContent_OutsideAjax">
+<summary>
+wizardContent_OutsideAjax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._MainAjaxLoadingPanel">
+<summary>
+MainAjaxLoadingPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._pnlStep1">
+<summary>
+pnlStep1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._txtBarNumber">
+<summary>
+txtBarNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._pnlHidden1">
+<summary>
+pnlHidden1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._txtFirstName">
+<summary>
+txtFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._txtLastName">
+<summary>
+txtLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._ddlState">
+<summary>
+ddlState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._btnFind">
+<summary>
+btnFind control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._pnlStep2">
+<summary>
+pnlStep2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._pnlFound">
+<summary>
+pnlFound control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._lblBarNumber">
+<summary>
+lblBarNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._lblName">
+<summary>
+lblName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._lblAddress">
+<summary>
+lblAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._lblWorkPhone">
+<summary>
+lblWorkPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._lblEmail">
+<summary>
+lblEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._lblLicenseDate">
+<summary>
+lblLicenseDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._btnThatsMe">
+<summary>
+btnThatsMe control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._btnNotMe">
+<summary>
+btnNotMe control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._pnlNotFound">
+<summary>
+pnlNotFound control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._btnTryAgain">
+<summary>
+btnTryAgain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._pnlStep3">
+<summary>
+pnlStep3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._lblCaseCount">
+<summary>
+lblCaseCount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._lblMonthlyCharge1">
+<summary>
+lblMonthlyCharge1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._pnlErrors">
+<summary>
+pnlErrors control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._litErrors">
+<summary>
+litErrors control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._txtConfirm">
+<summary>
+txtConfirm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._txtMobileNumber">
+<summary>
+txtMobileNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._pnlBilling">
+<summary>
+pnlBilling control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._txtAddress1">
+<summary>
+txtAddress1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._txtAddress2">
+<summary>
+txtAddress2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._txtZipCode">
+<summary>
+txtZipCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._txtCity">
+<summary>
+txtCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._ddlBillingState">
+<summary>
+ddlBillingState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._ddlCCType">
+<summary>
+ddlCCType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._txtCCNumber">
+<summary>
+txtCCNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._ddlExpMonth">
+<summary>
+ddlExpMonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._ddlExpYear">
+<summary>
+ddlExpYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._txtCVV">
+<summary>
+txtCVV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._btnSignUp">
+<summary>
+btnSignUp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._btnStartOver">
+<summary>
+btnStartOver control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._pnlDone">
+<summary>
+pnlDone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._lblMonthlyCharge">
+<summary>
+lblMonthlyCharge control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._btnLogin">
+<summary>
+btnLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._lblClientID">
+<summary>
+lblClientID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DailyDocket.Builder.Registration._lblUserID">
+<summary>
+lblUserID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="T:DailyDocket.Builder.ZipLookup.USZip">
+<remarks/>
+</member>
+<member name="M:DailyDocket.Builder.ZipLookup.USZip.#ctor">
+<remarks/>
+</member>
+<member name="E:DailyDocket.Builder.ZipLookup.USZip.GetInfoByZIPCompleted">
+<remarks/>
+</member>
+<member name="E:DailyDocket.Builder.ZipLookup.USZip.GetInfoByCityCompleted">
+<remarks/>
+</member>
+<member name="E:DailyDocket.Builder.ZipLookup.USZip.GetInfoByStateCompleted">
+<remarks/>
+</member>
+<member name="E:DailyDocket.Builder.ZipLookup.USZip.GetInfoByAreaCodeCompleted">
+<remarks/>
+</member>
+<member name="M:DailyDocket.Builder.ZipLookup.USZip.GetInfoByZIP(System.String)">
+<remarks/>
+</member>
+<member name="M:DailyDocket.Builder.ZipLookup.USZip.GetInfoByZIPAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:DailyDocket.Builder.ZipLookup.USZip.GetInfoByZIPAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:DailyDocket.Builder.ZipLookup.USZip.GetInfoByCity(System.String)">
+<remarks/>
+</member>
+<member name="M:DailyDocket.Builder.ZipLookup.USZip.GetInfoByCityAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:DailyDocket.Builder.ZipLookup.USZip.GetInfoByCityAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:DailyDocket.Builder.ZipLookup.USZip.GetInfoByState(System.String)">
+<remarks/>
+</member>
+<member name="M:DailyDocket.Builder.ZipLookup.USZip.GetInfoByStateAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:DailyDocket.Builder.ZipLookup.USZip.GetInfoByStateAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:DailyDocket.Builder.ZipLookup.USZip.GetInfoByAreaCode(System.String)">
+<remarks/>
+</member>
+<member name="M:DailyDocket.Builder.ZipLookup.USZip.GetInfoByAreaCodeAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:DailyDocket.Builder.ZipLookup.USZip.GetInfoByAreaCodeAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:DailyDocket.Builder.ZipLookup.USZip.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:DailyDocket.Builder.ZipLookup.GetInfoByZIPCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:DailyDocket.Builder.ZipLookup.GetInfoByZIPCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:DailyDocket.Builder.ZipLookup.GetInfoByZIPCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:DailyDocket.Builder.ZipLookup.GetInfoByCityCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:DailyDocket.Builder.ZipLookup.GetInfoByCityCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:DailyDocket.Builder.ZipLookup.GetInfoByCityCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:DailyDocket.Builder.ZipLookup.GetInfoByStateCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:DailyDocket.Builder.ZipLookup.GetInfoByStateCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:DailyDocket.Builder.ZipLookup.GetInfoByStateCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:DailyDocket.Builder.ZipLookup.GetInfoByAreaCodeCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:DailyDocket.Builder.ZipLookup.GetInfoByAreaCodeCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:DailyDocket.Builder.ZipLookup.GetInfoByAreaCodeCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

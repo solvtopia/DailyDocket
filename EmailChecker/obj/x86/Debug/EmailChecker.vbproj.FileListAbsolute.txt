@@ -1,0 +1,47 @@
+C:\Projects\Solvtopia\AttorneyCalendar\EmailChecker_Windows\bin\Debug\EmailChecker.exe.config
+C:\Projects\Solvtopia\AttorneyCalendar\EmailChecker_Windows\bin\Debug\EmailChecker.exe
+C:\Projects\Solvtopia\AttorneyCalendar\EmailChecker_Windows\bin\Debug\EmailChecker.pdb
+C:\Projects\Solvtopia\AttorneyCalendar\EmailChecker_Windows\bin\Debug\EmailChecker.xml
+C:\Projects\Solvtopia\AttorneyCalendar\EmailChecker_Windows\obj\x86\Debug\EmailChecker.fMain.resources
+C:\Projects\Solvtopia\AttorneyCalendar\EmailChecker_Windows\obj\x86\Debug\EmailChecker.Resources.resources
+C:\Projects\Solvtopia\AttorneyCalendar\EmailChecker_Windows\obj\x86\Debug\EmailChecker.vbproj.GenerateResource.Cache
+C:\Projects\Solvtopia\AttorneyCalendar\EmailChecker_Windows\obj\x86\Debug\EmailChecker.exe
+C:\Projects\Solvtopia\AttorneyCalendar\EmailChecker_Windows\obj\x86\Debug\EmailChecker.xml
+C:\Projects\Solvtopia\AttorneyCalendar\EmailChecker_Windows\obj\x86\Debug\EmailChecker.pdb
+C:\Projects\Solvtopia\AttorneyCalendar\EmailChecker_Windows\obj\x86\Debug\EmailChecker.vbprojResolveAssemblyReference.cache
+C:\Projects\Solvtopia\AttorneyCalendar\EmailChecker_Windows\bin\Debug\OpenPop.dll
+C:\Projects\Solvtopia\AttorneyCalendar\EmailChecker_Windows\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\EmailChecker.exe.config
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\EmailChecker.exe
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\EmailChecker.pdb
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\EmailChecker.xml
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\DailyDocket.CommonCore.Shared.dll
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\DotNetZip.dll
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\itextsharp.dll
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\Newtonsoft.Json.dll
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\OpenPop.dll
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\Twilio.dll
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\Telerik.Web.UI.dll
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\Stripe.net.dll
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\DailyDocket.CommonCore.Shared.pdb
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\DailyDocket.CommonCore.Shared.xml
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\DotNetZip.xml
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\itextsharp.xml
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\Newtonsoft.Json.xml
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\Twilio.xml
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\Telerik.Web.UI.xml
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\obj\x86\Debug\EmailChecker.fMain.resources
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\obj\x86\Debug\EmailChecker.Resources.resources
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\obj\x86\Debug\EmailChecker.vbproj.GenerateResource.Cache
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\obj\x86\Debug\EmailChecker.exe
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\obj\x86\Debug\EmailChecker.xml
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\obj\x86\Debug\EmailChecker.pdb
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\bin\Debug\DailyDocket.CommonCore.Shared.dll.config
+C:\Users\James\Google Drive\Projects\Solvtopia\DailyDocket\EmailChecker\obj\x86\Debug\EmailChecker.vbprojResolveAssemblyReference.cache

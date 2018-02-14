@@ -1,0 +1,149 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+UtilityWizards.CommonCore
+</name>
+</assembly>
+<members>
+<member name="T:UtilityWizards.CommonCore.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UtilityWizards.CommonCore.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UtilityWizards.CommonCore.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:UtilityWizards.CommonCore.Controls.TextBoxes.Base.DataValue">
+ <summary>
+ 
+ </summary>
+ <returns>Object</returns>
+ <remarks></remarks>
+</member>
+<member name="M:UtilityWizards.CommonCore.Controls.TextBoxes.Base.CheckErrors">
+ <summary>
+ 
+ </summary>
+ <returns>String containing data input error description</returns>
+ <remarks></remarks>
+</member>
+<member name="M:UtilityWizards.CommonCore.Controls.TextBoxes.Base.ClearErrors(System.Boolean)">
+ <summary>
+ Clears control's error text and optionally clears associated error label control
+ </summary>
+ <param name="ClearErrorLabel">Set to True to clear associated error label control</param>
+ <remarks></remarks>
+</member>
+<member name="M:UtilityWizards.CommonCore.Controls.TextBoxes.NumericTextBox.DataValue">
+ <summary>
+ 
+ </summary>
+ <returns>Object</returns>
+ <remarks></remarks>
+</member>
+<member name="M:UtilityWizards.CommonCore.Controls.TextBoxes.NumericTextBox.CheckErrors">
+ <summary>
+ 
+ </summary>
+ <returns>String containing data input error description</returns>
+ <remarks></remarks>
+</member>
+<member name="M:UtilityWizards.CommonCore.Controls.TextBoxes.NumericTextBox.ClearErrors(System.Boolean)">
+ <summary>
+ Clears control's error text and optionally clears associated error label control
+ </summary>
+ <param name="ClearErrorLabel">Set to True to clear associated error label control</param>
+ <remarks></remarks>
+</member>
+<member name="M:UtilityWizards.CommonCore.Controls.TextBoxes.DateTextBox.DataValue">
+ <summary>
+ 
+ </summary>
+ <returns>Object</returns>
+ <remarks></remarks>
+</member>
+<member name="M:UtilityWizards.CommonCore.Controls.TextBoxes.DateTextBox.CheckErrors">
+ <summary>
+ 
+ </summary>
+ <returns>String containing data input error description</returns>
+ <remarks></remarks>
+</member>
+<member name="M:UtilityWizards.CommonCore.Controls.TextBoxes.DateTextBox.ClearErrors(System.Boolean)">
+ <summary>
+ Clears control's error text and optionally clears associated error label control
+ </summary>
+ <param name="ClearErrorLabel">Set to True to clear associated error label control</param>
+ <remarks></remarks>
+</member>
+<member name="M:UtilityWizards.CommonCore.Controls.TextBoxes.MaskedTextBox.CheckErrors">
+ <summary>
+ 
+ </summary>
+ <returns>String containing data input error description</returns>
+ <remarks></remarks>
+</member>
+<member name="M:UtilityWizards.CommonCore.Controls.TextBoxes.MaskedTextBox.ClearErrors(System.Boolean)">
+ <summary>
+ Clears control's error text and optionally clears associated error label control
+ </summary>
+ <param name="ClearErrorLabel">Set to True to clear associated error label control</param>
+ <remarks></remarks>
+</member>
+<member name="P:UtilityWizards.CommonCore.Controls.DropDownLists.Base.PromptItemValue">
+ <summary>
+ 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks>This is used during routine to write control data to data source. 
+ If the dropdownlist's SelectedValue property is the same as its PromptItemValue property then
+ a NULL value is written to the data column.
+ This property will typically be set during a listitem population routine.</remarks>
+</member>
+<member name="M:UtilityWizards.CommonCore.Controls.DropDownLists.Base.ClearErrors(System.Boolean)">
+ <summary>
+ Clears control's error text and optionally clears associated error label control
+ </summary>
+ <param name="ClearErrorLabel">Set to True to clear associated error label control</param>
+ <remarks></remarks>
+</member>
+<member name="M:UtilityWizards.CommonCore.Controls.CheckBoxes.Base.CheckErrors">
+ <summary>
+ 
+ </summary>
+ <returns>String containing data input error description</returns>
+ <remarks></remarks>
+</member>
+<member name="M:UtilityWizards.CommonCore.Controls.CheckBoxes.Base.ClearErrors(System.Boolean)">
+ <summary>
+ Clears control's error text and optionally clears associated error label control
+ </summary>
+ <param name="ClearErrorLabel">Set to True to clear associated error label control</param>
+ <remarks></remarks>
+</member>
+<member name="M:UtilityWizards.CommonCore.Controls.RadioButtons.Base.CheckErrors">
+ <summary>
+ 
+ </summary>
+ <returns>String containing data input error description</returns>
+ <remarks></remarks>
+</member>
+<member name="M:UtilityWizards.CommonCore.Controls.RadioButtons.Base.ClearErrors(System.Boolean)">
+ <summary>
+ Clears control's error text and optionally clears associated error label control
+ </summary>
+ <param name="ClearErrorLabel">Set to True to clear associated error label control</param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

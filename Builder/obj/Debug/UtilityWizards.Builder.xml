@@ -1,0 +1,4430 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+UtilityWizards.Builder
+</name>
+</assembly>
+<members>
+<member name="T:UtilityWizards.Builder.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:UtilityWizards.Builder.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:UtilityWizards.Builder.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:UtilityWizards.Builder.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:UtilityWizards.Builder.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:UtilityWizards.Builder.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="T:UtilityWizards.Builder.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UtilityWizards.Builder.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UtilityWizards.Builder.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:UtilityWizards.Builder.LoginHelp._lnkLogin">
+<summary>
+lnkLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.LoginHelp._lnkRegister">
+<summary>
+lnkRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.LoginHelp._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.LoginHelp._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.LoginHelp._txtMobileNumber">
+<summary>
+txtMobileNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.LoginHelp._btnLogin">
+<summary>
+btnLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.LoginHelp._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:UtilityWizards.Builder.LoginHelp.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._lnkLogin">
+<summary>
+lnkLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._lnkForgotPassword">
+<summary>
+lnkForgotPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._pnlStep1">
+<summary>
+pnlStep1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._txtClientName">
+<summary>
+txtClientName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._txtClientAddress1">
+<summary>
+txtClientAddress1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._txtClientAddress2">
+<summary>
+txtClientAddress2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._txtClientCity">
+<summary>
+txtClientCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._txtClientState">
+<summary>
+txtClientState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._txtClientZipCode">
+<summary>
+txtClientZipCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._txtClientContactName">
+<summary>
+txtClientContactName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._txtClientContactPhone">
+<summary>
+txtClientContactPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._txtClientContactEmail">
+<summary>
+txtClientContactEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._txtAdminName">
+<summary>
+txtAdminName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._txtAdminEmail">
+<summary>
+txtAdminEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._txtAdminPassword">
+<summary>
+txtAdminPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._txtAdminPasswordConfirm">
+<summary>
+txtAdminPasswordConfirm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._btnRegister">
+<summary>
+btnRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._pnlDone">
+<summary>
+pnlDone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._lblClientID">
+<summary>
+lblClientID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register._lblUserID">
+<summary>
+lblUserID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:UtilityWizards.Builder.Register.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register_Web._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register_Web._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register_Web._pnlStep1">
+<summary>
+pnlStep1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register_Web._txtClientName">
+<summary>
+txtClientName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register_Web._txtClientAddress1">
+<summary>
+txtClientAddress1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register_Web._txtClientAddress2">
+<summary>
+txtClientAddress2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register_Web._txtClientCity">
+<summary>
+txtClientCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register_Web._txtClientState">
+<summary>
+txtClientState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register_Web._txtClientZipCode">
+<summary>
+txtClientZipCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register_Web._txtClientContactName">
+<summary>
+txtClientContactName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register_Web._txtClientContactPhone">
+<summary>
+txtClientContactPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register_Web._txtClientContactEmail">
+<summary>
+txtClientContactEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register_Web._txtAdminName">
+<summary>
+txtAdminName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register_Web._txtAdminEmail">
+<summary>
+txtAdminEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register_Web._txtAdminPassword">
+<summary>
+txtAdminPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register_Web._txtAdminPasswordConfirm">
+<summary>
+txtAdminPasswordConfirm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register_Web._btnRegister">
+<summary>
+btnRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register_Web._pnlDone">
+<summary>
+pnlDone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register_Web._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register_Web._lblClientID">
+<summary>
+lblClientID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Register_Web._lblUserID">
+<summary>
+lblUserID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._lnkDashboard">
+<summary>
+lnkDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._lnkHelp">
+<summary>
+lnkHelp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._lnkSave">
+<summary>
+lnkSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._lnkDelete">
+<summary>
+lnkDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._lnkReset">
+<summary>
+lnkReset control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._pnlAdminTools">
+<summary>
+pnlAdminTools control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._lnkAdminUsers">
+<summary>
+lnkAdminUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._lnkReports">
+<summary>
+lnkReports control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._imgAvatar">
+<summary>
+imgAvatar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._ddlClient">
+<summary>
+ddlClient control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._imgHelp_Question">
+<summary>
+imgHelp_Question control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._Image1">
+<summary>
+Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._Image6">
+<summary>
+Image6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._txtMobileUser">
+<summary>
+txtMobileUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._Image2">
+<summary>
+Image2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._Image8">
+<summary>
+Image8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._txtMobileNumber">
+<summary>
+txtMobileNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._Image3">
+<summary>
+Image3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._ddlPermissions">
+<summary>
+ddlPermissions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._Image7">
+<summary>
+Image7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._ddlSupervisor">
+<summary>
+ddlSupervisor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._txtDeviceID">
+<summary>
+txtDeviceID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._txtOneSignal">
+<summary>
+txtOneSignal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._ddlDeviceType">
+<summary>
+ddlDeviceType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._Image5">
+<summary>
+Image5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._chkApiAccess">
+<summary>
+chkApiAccess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._chkWebAccess">
+<summary>
+chkWebAccess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUserEditor._lblEditID">
+<summary>
+lblEditID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:UtilityWizards.Builder.AdminUserEditor.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUsers._lnkDashboard">
+<summary>
+lnkDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUsers._lnkHelp">
+<summary>
+lnkHelp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUsers._lnkNew">
+<summary>
+lnkNew control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUsers._pnlAdminTools">
+<summary>
+pnlAdminTools control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUsers._lnkAdminUsers">
+<summary>
+lnkAdminUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUsers._lnkReports">
+<summary>
+lnkReports control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUsers._tblAdmins">
+<summary>
+tblAdmins control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUsers._tblUsers">
+<summary>
+tblUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUsers._tblTechnicians">
+<summary>
+tblTechnicians control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUsers._tblSupervisors">
+<summary>
+tblSupervisors control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUsers._tblSolvtopia">
+<summary>
+tblSolvtopia control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUsers._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUsers._lblEditID">
+<summary>
+lblEditID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUsers._Image1">
+<summary>
+Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUsers._Image2">
+<summary>
+Image2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUsers._Image3">
+<summary>
+Image3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUsers._Image5">
+<summary>
+Image5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.AdminUsers._Image4">
+<summary>
+Image4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:UtilityWizards.Builder.AdminUsers.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Confirmation._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Confirmation._imgIcon">
+<summary>
+imgIcon control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Confirmation._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Confirmation._litMessage">
+<summary>
+litMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Confirmation._pnlChooseFolder">
+<summary>
+pnlChooseFolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Confirmation._ddlFolder">
+<summary>
+ddlFolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Confirmation._btnYes">
+<summary>
+btnYes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Confirmation._btnNo">
+<summary>
+btnNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:UtilityWizards.Builder.Confirmation.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default._lnkDashboard">
+<summary>
+lnkDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default._lnkHelp">
+<summary>
+lnkHelp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default._pnlAdminTools">
+<summary>
+pnlAdminTools control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default._lnkAdminUsers">
+<summary>
+lnkAdminUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default._lnkReports">
+<summary>
+lnkReports control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default._lblComingFrom">
+<summary>
+lblComingFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:UtilityWizards.Builder._Default.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.History._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.History._tblHistory">
+<summary>
+tblHistory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Login._lnkForgotPassword">
+<summary>
+lnkForgotPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Login._lnkRegister">
+<summary>
+lnkRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Login._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Login._pnlForm">
+<summary>
+pnlForm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Login._imgLogo">
+<summary>
+imgLogo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Login._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Login._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Login._btnLogin">
+<summary>
+btnLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Login._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:UtilityWizards.Builder.Login.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._lnkDashboard">
+<summary>
+lnkDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._lnkHelp">
+<summary>
+lnkHelp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._lnkNew">
+<summary>
+lnkNew control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._lnkSearch">
+<summary>
+lnkSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._lnkSave">
+<summary>
+lnkSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._lnkReset">
+<summary>
+lnkReset control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._lnkPrint">
+<summary>
+lnkPrint control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._lnkSaveHome">
+<summary>
+lnkSaveHome control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._pnlAdmin">
+<summary>
+pnlAdmin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._lnkEditModule">
+<summary>
+lnkEditModule control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._lnkDeleteModule">
+<summary>
+lnkDeleteModule control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._lnkCopyModule">
+<summary>
+lnkCopyModule control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._lnkMoveModule">
+<summary>
+lnkMoveModule control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._pnlAdminTools">
+<summary>
+pnlAdminTools control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._lnkAdminUsers">
+<summary>
+lnkAdminUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._lnkReports">
+<summary>
+lnkReports control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._tblFolderQuestions">
+<summary>
+tblFolderQuestions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._tblModuleQuestions">
+<summary>
+tblModuleQuestions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._txtAcctNumber">
+<summary>
+txtAcctNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._txtCustomerName">
+<summary>
+txtCustomerName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._txtLocationNum">
+<summary>
+txtLocationNum control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._txtCustomerServiceAddress">
+<summary>
+txtCustomerServiceAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._ddlStatus">
+<summary>
+ddlStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._ddlPriority">
+<summary>
+ddlPriority control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._ddlSupervisor">
+<summary>
+ddlSupervisor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._ddlTechnician">
+<summary>
+ddlTechnician control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._txtTechComments">
+<summary>
+txtTechComments control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._txtID">
+<summary>
+txtID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._txtUserEmail">
+<summary>
+txtUserEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._txtViewed">
+<summary>
+txtViewed control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._txtCustomerServiceAddressLat">
+<summary>
+txtCustomerServiceAddressLat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Module._txtCustomerServiceAddressLon">
+<summary>
+txtCustomerServiceAddressLon control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:UtilityWizards.Builder._Module.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._lnkDashboard">
+<summary>
+lnkDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._lnkHelp">
+<summary>
+lnkHelp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._pnlAdmin">
+<summary>
+pnlAdmin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._lnkEditModule">
+<summary>
+lnkEditModule control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._lnkDeleteModule">
+<summary>
+lnkDeleteModule control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._lnkCopyModule">
+<summary>
+lnkCopyModule control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._lnkMoveModule">
+<summary>
+lnkMoveModule control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._pnlAdminTools">
+<summary>
+pnlAdminTools control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._lnkAdminUsers">
+<summary>
+lnkAdminUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._lnkReports">
+<summary>
+lnkReports control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._pnlOptions">
+<summary>
+pnlOptions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._btnNew">
+<summary>
+btnNew control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._pnlNew">
+<summary>
+pnlNew control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._imgHelp_AcctNum_New">
+<summary>
+imgHelp_AcctNum_New control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._txtAcctNumber_New">
+<summary>
+txtAcctNumber_New control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._imgHelp_Address">
+<summary>
+imgHelp_Address control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._txtAddress">
+<summary>
+txtAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._btnSearch_New">
+<summary>
+btnSearch_New control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._imgHelp_Customers_New">
+<summary>
+imgHelp_Customers_New control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._RadCustomerGrid_New">
+<summary>
+RadCustomerGrid_New control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._pnlSearch">
+<summary>
+pnlSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._imgHelp_AcctNum_Existing">
+<summary>
+imgHelp_AcctNum_Existing control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._txtAcctNumber_Existing">
+<summary>
+txtAcctNumber_Existing control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._imgHelp_ID">
+<summary>
+imgHelp_ID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._txtTransactionID">
+<summary>
+txtTransactionID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._btnSearch_Existing">
+<summary>
+btnSearch_Existing control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._btnShowAll">
+<summary>
+btnShowAll control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._imgHelp_Customers_Existing">
+<summary>
+imgHelp_Customers_Existing control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleLandingPage._RadCustomerGrid_Existing">
+<summary>
+RadCustomerGrid_Existing control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:UtilityWizards.Builder.ModuleLandingPage.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._lnkDashboard">
+<summary>
+lnkDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._lnkHelp">
+<summary>
+lnkHelp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._pnlAdminTools">
+<summary>
+pnlAdminTools control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._lnkAdminUsers">
+<summary>
+lnkAdminUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._lnkReports">
+<summary>
+lnkReports control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._pnlStep1">
+<summary>
+pnlStep1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._imgHelp_Name">
+<summary>
+imgHelp_Name control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._imgHelp_Desc">
+<summary>
+imgHelp_Desc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._txtDescription">
+<summary>
+txtDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._ddlSupervisor">
+<summary>
+ddlSupervisor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._pnlModuleStep1Questions">
+<summary>
+pnlModuleStep1Questions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._imgHelp_Folder">
+<summary>
+imgHelp_Folder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._ddlFolder">
+<summary>
+ddlFolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._imgHelp_Icon">
+<summary>
+imgHelp_Icon control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._ddlIcon">
+<summary>
+ddlIcon control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._imgIcon">
+<summary>
+imgIcon control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._pnlStep2">
+<summary>
+pnlStep2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._imgHelp_Question">
+<summary>
+imgHelp_Question control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._ddlQuestion">
+<summary>
+ddlQuestion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._lblDataField">
+<summary>
+lblDataField control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._imgHelp_Type">
+<summary>
+imgHelp_Type control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._ddlQuestionType">
+<summary>
+ddlQuestionType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._imgHelp_Required">
+<summary>
+imgHelp_Required control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._chkRequired">
+<summary>
+chkRequired control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._imgHelp_Search">
+<summary>
+imgHelp_Search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._chkSearch">
+<summary>
+chkSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._imgHelp_Reporting">
+<summary>
+imgHelp_Reporting control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._chkReporting">
+<summary>
+chkReporting control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._imgHelp_Export">
+<summary>
+imgHelp_Export control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._chkExport">
+<summary>
+chkExport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._chkMobile">
+<summary>
+chkMobile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._imgHelp_Values">
+<summary>
+imgHelp_Values control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._txtDDLValue">
+<summary>
+txtDDLValue control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._btnAddValue">
+<summary>
+btnAddValue control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._lstValues">
+<summary>
+lstValues control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._btnRemoveValue">
+<summary>
+btnRemoveValue control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._btnAdd">
+<summary>
+btnAdd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._imgHelp_Preview">
+<summary>
+imgHelp_Preview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._tblQuestions">
+<summary>
+tblQuestions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._pnlStep3">
+<summary>
+pnlStep3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._lblModuleName1">
+<summary>
+lblModuleName1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._pnlStep4">
+<summary>
+pnlStep4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._pnlStep5">
+<summary>
+pnlStep5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._pnlStep6">
+<summary>
+pnlStep6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._btnNext">
+<summary>
+btnNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._lblClientID">
+<summary>
+lblClientID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._lblUserID">
+<summary>
+lblUserID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._lblID">
+<summary>
+lblID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._pnlStepInfo1">
+<summary>
+pnlStepInfo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._pnlFolderStepInfo1">
+<summary>
+pnlFolderStepInfo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._pnlModuleStepInfo1">
+<summary>
+pnlModuleStepInfo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._pnlStepInfo2">
+<summary>
+pnlStepInfo2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._pnlFolderStepInfo2">
+<summary>
+pnlFolderStepInfo2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._pnlModuleStepInfo2">
+<summary>
+pnlModuleStepInfo2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._lblModuleName">
+<summary>
+lblModuleName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._pnlStepInfo3">
+<summary>
+pnlStepInfo3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._pnlStepInfo4">
+<summary>
+pnlStepInfo4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._pnlStepInfo5">
+<summary>
+pnlStepInfo5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ModuleWizard._pnlStepInfo6">
+<summary>
+pnlStepInfo6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:UtilityWizards.Builder.ModuleWizard.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.NewsEditor._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:UtilityWizards.Builder.NewsEditor.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Print._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._lnkDashboard">
+<summary>
+lnkDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._lnkHelp">
+<summary>
+lnkHelp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._pnlAdminTools">
+<summary>
+pnlAdminTools control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._lnkAdminUsers">
+<summary>
+lnkAdminUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._lnkReports">
+<summary>
+lnkReports control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._imgAvatar">
+<summary>
+imgAvatar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._imgHelp_Question">
+<summary>
+imgHelp_Question control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._Image1">
+<summary>
+Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._Image6">
+<summary>
+Image6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._txtMobileUser">
+<summary>
+txtMobileUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._Image2">
+<summary>
+Image2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._Image8">
+<summary>
+Image8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._txtMobileNumber">
+<summary>
+txtMobileNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._lblEditID">
+<summary>
+lblEditID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._ddlClient">
+<summary>
+ddlClient control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._chkApiAccess">
+<summary>
+chkApiAccess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._chkWebAccess">
+<summary>
+chkWebAccess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._txtOneSignal">
+<summary>
+txtOneSignal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._ddlPermissions">
+<summary>
+ddlPermissions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._ddlSupervisor">
+<summary>
+ddlSupervisor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._txtDeviceID">
+<summary>
+txtDeviceID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._ddlDeviceType">
+<summary>
+ddlDeviceType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._btnSave">
+<summary>
+btnSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Profile._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:UtilityWizards.Builder.Profile.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._lnkDashboard">
+<summary>
+lnkDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._lnkHelp">
+<summary>
+lnkHelp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._lnkPrint">
+<summary>
+lnkPrint control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._lnkDelete">
+<summary>
+lnkDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._pnlAdminTools">
+<summary>
+pnlAdminTools control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._lnkAdminUsers">
+<summary>
+lnkAdminUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._lnkReports">
+<summary>
+lnkReports control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._pnlStep1">
+<summary>
+pnlStep1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._imgHelp_Name">
+<summary>
+imgHelp_Name control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._imgHelp_Name0">
+<summary>
+imgHelp_Name0 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._txtDescription">
+<summary>
+txtDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._pnlStep2">
+<summary>
+pnlStep2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._Image1">
+<summary>
+Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._ddlFolder">
+<summary>
+ddlFolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._imgHelp_Name1">
+<summary>
+imgHelp_Name1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._ddlModule">
+<summary>
+ddlModule control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._imgHelp_Name2">
+<summary>
+imgHelp_Name2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._ddlQuestion">
+<summary>
+ddlQuestion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._btnAddQuestion">
+<summary>
+btnAddQuestion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._lstValues">
+<summary>
+lstValues control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._btnRemoveQuestion">
+<summary>
+btnRemoveQuestion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._pnlStep3">
+<summary>
+pnlStep3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._RadReportGrid">
+<summary>
+RadReportGrid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._pnlStep4">
+<summary>
+pnlStep4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._lblReportName">
+<summary>
+lblReportName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._pnlStep5">
+<summary>
+pnlStep5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._pnlStep6">
+<summary>
+pnlStep6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._btnNext">
+<summary>
+btnNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._lblFields">
+<summary>
+lblFields control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._lblID">
+<summary>
+lblID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._pnlStepInfo1">
+<summary>
+pnlStepInfo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._pnlStepInfo2">
+<summary>
+pnlStepInfo2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._pnlStepInfo3">
+<summary>
+pnlStepInfo3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._pnlStepInfo4">
+<summary>
+pnlStepInfo4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._pnlStepInfo5">
+<summary>
+pnlStepInfo5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportEditor._pnlStepInfo6">
+<summary>
+pnlStepInfo6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:UtilityWizards.Builder.ReportEditor.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportPreview._lnkDashboard">
+<summary>
+lnkDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportPreview._lnkHelp">
+<summary>
+lnkHelp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportPreview._pnlAdminTools">
+<summary>
+pnlAdminTools control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportPreview._lnkAdminUsers">
+<summary>
+lnkAdminUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportPreview._lnkReports">
+<summary>
+lnkReports control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportPreview._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportPreview._RadReportGrid">
+<summary>
+RadReportGrid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportPreview._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportPreview._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportPreview._lblFields">
+<summary>
+lblFields control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportPreview._lblModule">
+<summary>
+lblModule control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ReportPreview._lblID">
+<summary>
+lblID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:UtilityWizards.Builder.ReportPreview.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Reports._lnkDashboard">
+<summary>
+lnkDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Reports._lnkHelp">
+<summary>
+lnkHelp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Reports._lnkNew">
+<summary>
+lnkNew control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Reports._pnlAdminTools">
+<summary>
+pnlAdminTools control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Reports._lnkAdminUsers">
+<summary>
+lnkAdminUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Reports._lnkReports">
+<summary>
+lnkReports control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Reports._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Reports._tblReports">
+<summary>
+tblReports control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Reports._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Reports._lblEditID">
+<summary>
+lblEditID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:UtilityWizards.Builder.Reports.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Search._lnkDashboard">
+<summary>
+lnkDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Search._lnkHelp">
+<summary>
+lnkHelp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Search._lnkNew">
+<summary>
+lnkNew control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Search._pnlAdmin">
+<summary>
+pnlAdmin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Search._lnkEditModule">
+<summary>
+lnkEditModule control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Search._lnkDeleteModule">
+<summary>
+lnkDeleteModule control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Search._lnkCopyModule">
+<summary>
+lnkCopyModule control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Search._lnkMoveModule">
+<summary>
+lnkMoveModule control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Search._pnlAdminTools">
+<summary>
+pnlAdminTools control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Search._lnkAdminUsers">
+<summary>
+lnkAdminUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Search._lnkReports">
+<summary>
+lnkReports control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Search._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Search._RadSearchGrid">
+<summary>
+RadSearchGrid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Search._RadSearchGridMobile">
+<summary>
+RadSearchGridMobile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Search._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Search._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Search._lblFields">
+<summary>
+lblFields control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Search._lblClientID">
+<summary>
+lblClientID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Search._lblModuleID">
+<summary>
+lblModuleID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Search._lblCustAcctNum">
+<summary>
+lblCustAcctNum control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Search._lblFilterID">
+<summary>
+lblFilterID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:UtilityWizards.Builder.Search.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._WizardTemplate._pnlStep1">
+<summary>
+pnlStep1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._WizardTemplate._pnlStep2">
+<summary>
+pnlStep2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._WizardTemplate._pnlStep3">
+<summary>
+pnlStep3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._WizardTemplate._pnlStep4">
+<summary>
+pnlStep4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._WizardTemplate._pnlStep5">
+<summary>
+pnlStep5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._WizardTemplate._pnlStep6">
+<summary>
+pnlStep6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._WizardTemplate._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._WizardTemplate._btnNext">
+<summary>
+btnNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._WizardTemplate._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._WizardTemplate._pnlHidden">
+<summary>
+pnlHidden control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._WizardTemplate._lblClientID">
+<summary>
+lblClientID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._WizardTemplate._lblUserID">
+<summary>
+lblUserID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._WizardTemplate._lblID">
+<summary>
+lblID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._WizardTemplate._pnlStepInfo1">
+<summary>
+pnlStepInfo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._WizardTemplate._pnlStepInfo2">
+<summary>
+pnlStepInfo2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._WizardTemplate._pnlStepInfo3">
+<summary>
+pnlStepInfo3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._WizardTemplate._pnlStepInfo4">
+<summary>
+pnlStepInfo4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._WizardTemplate._pnlStepInfo5">
+<summary>
+pnlStepInfo5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._WizardTemplate._pnlStepInfo6">
+<summary>
+pnlStepInfo6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:UtilityWizards.Builder._WizardTemplate.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default4._lnkDashboard">
+<summary>
+lnkDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default4._lnkHelp">
+<summary>
+lnkHelp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default4._litRootOptions">
+<summary>
+litRootOptions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default4._lnkNewModule">
+<summary>
+lnkNewModule control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default4._lnkNewFolder">
+<summary>
+lnkNewFolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default4._litFolderOptions">
+<summary>
+litFolderOptions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default4._lnkNewModule1">
+<summary>
+lnkNewModule1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default4._lnkDeleteFolder">
+<summary>
+lnkDeleteFolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default4._lnkEditFolder">
+<summary>
+lnkEditFolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default4._pnlAdminTools">
+<summary>
+pnlAdminTools control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default4._lnkAdminUsers">
+<summary>
+lnkAdminUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default4._lnkReports">
+<summary>
+lnkReports control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default4._lblOpenWorkOrders">
+<summary>
+lblOpenWorkOrders control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default4._lblCompletedWorkOrders">
+<summary>
+lblCompletedWorkOrders control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default4._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default4._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default4._tblModules">
+<summary>
+tblModules control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default4._RadMultiPage1">
+<summary>
+RadMultiPage1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default4._RadPageView1">
+<summary>
+RadPageView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default4._RadMultiPage2">
+<summary>
+RadMultiPage2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder._Default4._RadPageView2">
+<summary>
+RadPageView2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:UtilityWizards.Builder._Default4.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Messages._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Notifications._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.RecentWorkOrders._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Tasks._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ContentPage._headContent">
+<summary>
+headContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ContentPage._menuContent">
+<summary>
+menuContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ContentPage._breadcrumbContent">
+<summary>
+breadcrumbContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ContentPage._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ContentPage._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ContentPage._pageContent_Ajax">
+<summary>
+pageContent_Ajax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ContentPage._pageContent_OutsideAjax">
+<summary>
+pageContent_OutsideAjax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:UtilityWizards.Builder.ContentPage.Master">
+<summary>
+Master property.
+</summary>
+<remarks>
+Auto-generated property.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.LayoutMobile._headContent">
+<summary>
+headContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.LayoutMobile._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.LayoutMobile._RadScriptManager">
+<summary>
+RadScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.LayoutMobile._RadFormDecorator">
+<summary>
+RadFormDecorator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.LayoutMobile._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.LayoutMobile._MainAjaxLoadingPanel">
+<summary>
+MainAjaxLoadingPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.LayoutMobile._pageContent">
+<summary>
+pageContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.LayoutMobile._pageContent_OutsideAjax">
+<summary>
+pageContent_OutsideAjax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._headContent">
+<summary>
+headContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._RadScriptManager">
+<summary>
+RadScriptManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._MainAjaxLoadingPanel">
+<summary>
+MainAjaxLoadingPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._pnlTopRight">
+<summary>
+pnlTopRight control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._ibtnAvitar2">
+<summary>
+ibtnAvitar2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._lblUserInfo_Name2">
+<summary>
+lblUserInfo_Name2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._ibtnAvitar3">
+<summary>
+ibtnAvitar3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._lblUserInfo_Name3">
+<summary>
+lblUserInfo_Name3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._lblUserInfo_Role">
+<summary>
+lblUserInfo_Role control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._lblUserInfo_Email">
+<summary>
+lblUserInfo_Email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._RadAjaxPanel1">
+<summary>
+RadAjaxPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._btnProfile">
+<summary>
+btnProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._btnSignOut">
+<summary>
+btnSignOut control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._pnlUserInfo">
+<summary>
+pnlUserInfo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._ibtnAvitar">
+<summary>
+ibtnAvitar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._lblUserInfo_Name">
+<summary>
+lblUserInfo_Name control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._pnlMenu">
+<summary>
+pnlMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._MenuAjaxPanel1">
+<summary>
+MenuAjaxPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._menuContent">
+<summary>
+menuContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._pnlBreadcrumbs">
+<summary>
+pnlBreadcrumbs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._breadcrumbContent">
+<summary>
+breadcrumbContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._pageContent_Ajax">
+<summary>
+pageContent_Ajax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._pageContent_OutsideAjax">
+<summary>
+pageContent_OutsideAjax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Dashboard._lnkSolvtopia">
+<summary>
+lnkSolvtopia control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Wizard_V2._wizardHeadContent">
+<summary>
+wizardHeadContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Wizard_V2._wizardMenuContent">
+<summary>
+wizardMenuContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Wizard_V2._wizardBreadcrumbContent">
+<summary>
+wizardBreadcrumbContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Wizard_V2._MainAjaxPanel">
+<summary>
+MainAjaxPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Wizard_V2._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Wizard_V2._wizardContent_Ajax">
+<summary>
+wizardContent_Ajax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Wizard_V2._wizardInfoContent">
+<summary>
+wizardInfoContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.Wizard_V2._wizardContent_OutsideAjax">
+<summary>
+wizardContent_OutsideAjax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.RadEditor._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.RadEditor._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.RadEditor._RadEditor1">
+<summary>
+RadEditor1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ServiceTester._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.ServiceTester._lblError">
+<summary>
+lblError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UtilityWizards.Builder.XmlUpgrade._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

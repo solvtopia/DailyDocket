@@ -1,0 +1,66 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/masterPages/Dashboard.Master" AutoEventWireup="false" CodeBehind="ContentPage.master.vb" Inherits="DailyDocket.Builder.ContentPage" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+
+<%@ MasterType VirtualPath="~/masterPages/Dashboard.Master" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="headContent" runat="server">
+    <style type="text/css">
+        .wrap-table {
+            width: 100%;
+            display: block;
+        }
+
+            .wrap-table td {
+                display: inline-block;
+            }
+    </style>
+    <asp:ContentPlaceHolder runat="server" ID="headContent" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="menuContent" runat="server">
+    <asp:ContentPlaceHolder runat="server" ID="menuContent" />
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="breadcrumbContent" runat="server">
+    <asp:ContentPlaceHolder runat="server" ID="breadcrumbContent" />
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="pageContent_Ajax" runat="server">
+    <telerik:RadAjaxPanel ID="MainAjaxPanel" runat="server" Width="100%" HorizontalAlign="NotSet" LoadingPanelID="MainAjaxLoadingPanel">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box">
+                    <div class="box-header with-border">
+                        <table>
+                            <tr>
+                                <td style="width: 30px; margin-right: 10px; vertical-align: middle;">
+                                    <asp:ImageButton runat="server" ID="imgBack" ImageUrl="~/images/toolbar/icon_back.png" Height="30px" /></td>
+                                <td style="vertical-align: middle;">
+                                    <h3 class="box-title">
+                                        <asp:Label ID="lblHeader" runat="server" Text="Content Title"></asp:Label></h3>
+                                </td>
+                            </tr>
+                        </table>
+
+
+                        <%--<div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                            <i class="fa fa-minus"></i>
+                        </button>
+                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                    </div>--%>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <asp:ContentPlaceHolder runat="server" ID="pageContent_Ajax" />
+                    </div>
+                    <!-- ./box-body -->
+                </div>
+                <!-- /.box -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </telerik:RadAjaxPanel>
+</asp:Content>
+<asp:Content ID="Content5" ContentPlaceHolderID="pageContent_OutsideAjax" runat="server">
+    <asp:ContentPlaceHolder runat="server" ID="pageContent_OutsideAjax" />
+</asp:Content>
